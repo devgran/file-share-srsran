@@ -1,0 +1,4549 @@
+2024-07-02T08:46:11.747574 [RRC     ] [D] 5QI DRB config: 5QI=0x1 rb_type=DRB rlc_mode=UM int_req=false cip_req=true TX=[sn_size=12 discard_timer=infinity] RX=[sn_size=12 t_reordering=80 out_of_order=false] custom_tx=[count_notify=3221225472 count_max=4294967294 rlc_sdu_queue=4096 warn_on_drop=false] custom_rx=[count_notify=3221225472 count_max=4294967294]
+2024-07-02T08:46:11.747575 [RRC     ] [D] 5QI DRB config: 5QI=0x2 rb_type=DRB rlc_mode=UM int_req=false cip_req=true TX=[sn_size=12 discard_timer=infinity] RX=[sn_size=12 t_reordering=80 out_of_order=false] custom_tx=[count_notify=3221225472 count_max=4294967294 rlc_sdu_queue=4096 warn_on_drop=false] custom_rx=[count_notify=3221225472 count_max=4294967294]
+2024-07-02T08:46:11.747575 [RRC     ] [D] 5QI DRB config: 5QI=0x5 rb_type=DRB rlc_mode=AM int_req=false cip_req=true TX=[sn_size=12 discard_timer=infinity] RX=[sn_size=12 t_reordering=80 out_of_order=false] custom_tx=[count_notify=3221225472 count_max=4294967294 rlc_sdu_queue=4096 warn_on_drop=false] custom_rx=[count_notify=3221225472 count_max=4294967294]
+2024-07-02T08:46:11.747575 [RRC     ] [D] 5QI DRB config: 5QI=0x7 rb_type=DRB rlc_mode=UM int_req=false cip_req=true TX=[sn_size=12 discard_timer=infinity] RX=[sn_size=12 t_reordering=80 out_of_order=false] custom_tx=[count_notify=3221225472 count_max=4294967294 rlc_sdu_queue=4096 warn_on_drop=false] custom_rx=[count_notify=3221225472 count_max=4294967294]
+2024-07-02T08:46:11.747575 [RRC     ] [D] 5QI DRB config: 5QI=0x9 rb_type=DRB rlc_mode=AM int_req=false cip_req=true TX=[sn_size=12 discard_timer=infinity] RX=[sn_size=12 t_reordering=80 out_of_order=false] custom_tx=[count_notify=3221225472 count_max=4294967294 rlc_sdu_queue=4096 warn_on_drop=false] custom_rx=[count_notify=3221225472 count_max=4294967294]
+2024-07-02T08:46:11.747811 [RRC     ] [D] Updating cell=0x66c000 with band=78 ssb_arfcn=630624 ssb_scs=30kHz
+2024-07-02T08:46:11.758795 [SCHED   ] [D] [   448.2] Processed slot events:
+- Cell creation: idx=0 pci=1
+2024-07-02T08:46:11.781503 [MAC     ] [W] [   450.3] Skipped slot indication=450.8. Cause: DL task queue is full.
+2024-07-02T08:46:11.782004 [MAC     ] [W] [   450.3] Skipped slot indication=450.9. Cause: DL task queue is full.
+2024-07-02T08:46:11.782501 [MAC     ] [W] [   450.3] Skipped slot indication=450.10. Cause: DL task queue is full.
+2024-07-02T08:46:11.783001 [MAC     ] [W] [   450.3] Skipped slot indication=450.11. Cause: DL task queue is full.
+2024-07-02T08:46:11.783506 [MAC     ] [W] [   450.3] Skipped slot indication=450.12. Cause: DL task queue is full.
+2024-07-02T08:46:11.784004 [MAC     ] [W] [   450.3] Skipped slot indication=450.13. Cause: DL task queue is full.
+2024-07-02T08:46:11.784501 [MAC     ] [W] [   450.3] Skipped slot indication=450.14. Cause: DL task queue is full.
+2024-07-02T08:46:11.785002 [MAC     ] [W] [   450.3] Skipped slot indication=450.15. Cause: DL task queue is full.
+2024-07-02T08:46:11.785502 [MAC     ] [W] [   450.3] Skipped slot indication=450.16. Cause: DL task queue is full.
+2024-07-02T08:46:11.786003 [MAC     ] [W] [   450.3] Skipped slot indication=450.17. Cause: DL task queue is full.
+2024-07-02T08:46:11.786506 [MAC     ] [W] [   450.3] Skipped slot indication=450.18. Cause: DL task queue is full.
+2024-07-02T08:46:11.786679 [FAPI    ] [W] [  450.18] Real-time failure in FAPI: Received late DL_TTI.request from slot 450.4
+2024-07-02T08:46:11.786692 [SCHED   ] [D] [   450.5] Processed slot events:
+- ErrorIndication: slot=450.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.786696 [FAPI    ] [W] [  450.18] Real-time failure in FAPI: Received late DL_TTI.request from slot 450.5
+2024-07-02T08:46:11.786701 [SCHED   ] [D] [   450.6] Processed slot events:
+- ErrorIndication: slot=450.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.786704 [FAPI    ] [W] [  450.18] Real-time failure in FAPI: Received late DL_TTI.request from slot 450.6
+2024-07-02T08:46:11.786709 [SCHED   ] [D] [   450.7] Processed slot events:
+- ErrorIndication: slot=450.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.786747 [OFH     ] [W] Dropped late downlink resource grid in slot '450.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:11.787013 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.8.
+2024-07-02T08:46:11.787014 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.9.
+2024-07-02T08:46:11.787014 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.10.
+2024-07-02T08:46:11.787015 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.11.
+2024-07-02T08:46:11.787015 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.12.
+2024-07-02T08:46:11.787015 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.13.
+2024-07-02T08:46:11.787016 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.14.
+2024-07-02T08:46:11.787016 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.15.
+2024-07-02T08:46:11.787017 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.16.
+2024-07-02T08:46:11.787017 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.17.
+2024-07-02T08:46:11.787018 [SCHED   ] [I] [  450.19] Status: Detected skipped slot=450.18.
+2024-07-02T08:46:11.787020 [SCHED   ] [W] [  450.19] cell=0, slot=450.3: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:11.787021 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.8.
+2024-07-02T08:46:11.787021 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.9.
+2024-07-02T08:46:11.787021 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.10.
+2024-07-02T08:46:11.787022 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.11.
+2024-07-02T08:46:11.787022 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.12.
+2024-07-02T08:46:11.787022 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.13.
+2024-07-02T08:46:11.787022 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.14.
+2024-07-02T08:46:11.787022 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.15.
+2024-07-02T08:46:11.787022 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.16.
+2024-07-02T08:46:11.787023 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.17.
+2024-07-02T08:46:11.787023 [SCHED   ] [I] [  450.19] UE fallback scheduler: Detected skipped slot=450.18.
+2024-07-02T08:46:11.842001 [MAC     ] [W] [   456.4] Skipped slot indication=456.9. Cause: DL task queue is full.
+2024-07-02T08:46:11.842505 [MAC     ] [W] [   456.4] Skipped slot indication=456.10. Cause: DL task queue is full.
+2024-07-02T08:46:11.843001 [MAC     ] [W] [   456.4] Skipped slot indication=456.11. Cause: DL task queue is full.
+2024-07-02T08:46:11.843507 [MAC     ] [W] [   456.4] Skipped slot indication=456.12. Cause: DL task queue is full.
+2024-07-02T08:46:11.844005 [MAC     ] [W] [   456.4] Skipped slot indication=456.13. Cause: DL task queue is full.
+2024-07-02T08:46:11.844501 [MAC     ] [W] [   456.4] Skipped slot indication=456.14. Cause: DL task queue is full.
+2024-07-02T08:46:11.845005 [MAC     ] [W] [   456.4] Skipped slot indication=456.15. Cause: DL task queue is full.
+2024-07-02T08:46:11.845505 [MAC     ] [W] [   456.4] Skipped slot indication=456.16. Cause: DL task queue is full.
+2024-07-02T08:46:11.846004 [MAC     ] [W] [   456.4] Skipped slot indication=456.17. Cause: DL task queue is full.
+2024-07-02T08:46:11.846504 [MAC     ] [W] [   456.4] Skipped slot indication=456.18. Cause: DL task queue is full.
+2024-07-02T08:46:11.846663 [FAPI    ] [W] [  456.18] Real-time failure in FAPI: Received late DL_TTI.request from slot 456.5
+2024-07-02T08:46:11.846666 [OFH     ] [W] Dropped late downlink resource grid in slot '456.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:11.846676 [SCHED   ] [D] [   456.6] Processed slot events:
+- ErrorIndication: slot=456.5, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=456.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.846680 [FAPI    ] [W] [  456.18] Real-time failure in FAPI: Received late DL_TTI.request from slot 456.6
+2024-07-02T08:46:11.846685 [SCHED   ] [D] [   456.7] Processed slot events:
+- ErrorIndication: slot=456.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.846690 [FAPI    ] [W] [  456.18] Real-time failure in FAPI: Received late UL_TTI.request from slot 456.8
+2024-07-02T08:46:11.847016 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.9.
+2024-07-02T08:46:11.847017 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.10.
+2024-07-02T08:46:11.847018 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.11.
+2024-07-02T08:46:11.847018 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.12.
+2024-07-02T08:46:11.847019 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.13.
+2024-07-02T08:46:11.847019 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.14.
+2024-07-02T08:46:11.847020 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.15.
+2024-07-02T08:46:11.847020 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.16.
+2024-07-02T08:46:11.847021 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.17.
+2024-07-02T08:46:11.847021 [SCHED   ] [I] [  456.19] Status: Detected skipped slot=456.18.
+2024-07-02T08:46:11.847024 [SCHED   ] [W] [  456.19] cell=0, slot=456.8: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:11.847025 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.9.
+2024-07-02T08:46:11.847026 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.10.
+2024-07-02T08:46:11.847026 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.11.
+2024-07-02T08:46:11.847026 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.12.
+2024-07-02T08:46:11.847026 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.13.
+2024-07-02T08:46:11.847026 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.14.
+2024-07-02T08:46:11.847026 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.15.
+2024-07-02T08:46:11.847027 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.16.
+2024-07-02T08:46:11.847027 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.17.
+2024-07-02T08:46:11.847030 [SCHED   ] [I] [  456.19] UE fallback scheduler: Detected skipped slot=456.18.
+2024-07-02T08:46:11.972006 [MAC     ] [W] [   469.4] Skipped slot indication=469.9. Cause: DL task queue is full.
+2024-07-02T08:46:11.972249 [OFH     ] [W] Dropped late downlink resource grid in slot '469.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:11.972257 [SCHED   ] [D] [   469.5] Processed slot events:
+- ErrorIndication: slot=469.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.972262 [OFH     ] [W] Dropped late downlink resource grid in slot '469.5' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:11.972268 [SCHED   ] [D] [   469.6] Processed slot events:
+- ErrorIndication: slot=469.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:11.972511 [SCHED   ] [I] [  469.10] Status: Detected skipped slot=469.9.
+2024-07-02T08:46:11.972513 [SCHED   ] [I] [  469.10] UE fallback scheduler: Detected skipped slot=469.9.
+2024-07-02T08:46:12.232001 [MAC     ] [W] [   495.4] Skipped slot indication=495.9. Cause: DL task queue is full.
+2024-07-02T08:46:12.232505 [MAC     ] [W] [   495.4] Skipped slot indication=495.10. Cause: DL task queue is full.
+2024-07-02T08:46:12.233002 [MAC     ] [W] [   495.4] Skipped slot indication=495.11. Cause: DL task queue is full.
+2024-07-02T08:46:12.233501 [MAC     ] [W] [   495.4] Skipped slot indication=495.12. Cause: DL task queue is full.
+2024-07-02T08:46:12.234005 [MAC     ] [W] [   495.4] Skipped slot indication=495.13. Cause: DL task queue is full.
+2024-07-02T08:46:12.234503 [MAC     ] [W] [   495.4] Skipped slot indication=495.14. Cause: DL task queue is full.
+2024-07-02T08:46:12.235002 [MAC     ] [W] [   495.4] Skipped slot indication=495.15. Cause: DL task queue is full.
+2024-07-02T08:46:12.235503 [MAC     ] [W] [   495.4] Skipped slot indication=495.16. Cause: DL task queue is full.
+2024-07-02T08:46:12.236001 [MAC     ] [W] [   495.4] Skipped slot indication=495.17. Cause: DL task queue is full.
+2024-07-02T08:46:12.236188 [OFH     ] [W] Dropped late downlink resource grid in slot '495.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:12.236197 [SCHED   ] [D] [   495.5] Processed slot events:
+- ErrorIndication: slot=495.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.236200 [FAPI    ] [W] [  495.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 495.5
+2024-07-02T08:46:12.236212 [SCHED   ] [D] [   495.6] Processed slot events:
+- ErrorIndication: slot=495.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.236214 [FAPI    ] [W] [  495.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 495.6
+2024-07-02T08:46:12.236220 [SCHED   ] [D] [   495.7] Processed slot events:
+- ErrorIndication: slot=495.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.236226 [FAPI    ] [W] [  495.17] Real-time failure in FAPI: Received late UL_TTI.request from slot 495.8
+2024-07-02T08:46:12.236513 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.9.
+2024-07-02T08:46:12.236514 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.10.
+2024-07-02T08:46:12.236515 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.11.
+2024-07-02T08:46:12.236516 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.12.
+2024-07-02T08:46:12.236516 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.13.
+2024-07-02T08:46:12.236517 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.14.
+2024-07-02T08:46:12.236517 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.15.
+2024-07-02T08:46:12.236518 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.16.
+2024-07-02T08:46:12.236518 [SCHED   ] [I] [  495.18] Status: Detected skipped slot=495.17.
+2024-07-02T08:46:12.236521 [SCHED   ] [W] [  495.18] cell=0, slot=495.8: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:12.236522 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.9.
+2024-07-02T08:46:12.236522 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.10.
+2024-07-02T08:46:12.236523 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.11.
+2024-07-02T08:46:12.236523 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.12.
+2024-07-02T08:46:12.236523 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.13.
+2024-07-02T08:46:12.236524 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.14.
+2024-07-02T08:46:12.236524 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.15.
+2024-07-02T08:46:12.236524 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.16.
+2024-07-02T08:46:12.236524 [SCHED   ] [I] [  495.18] UE fallback scheduler: Detected skipped slot=495.17.
+2024-07-02T08:46:12.342002 [MAC     ] [W] [   506.4] Skipped slot indication=506.9. Cause: DL task queue is full.
+2024-07-02T08:46:12.342501 [MAC     ] [W] [   506.4] Skipped slot indication=506.10. Cause: DL task queue is full.
+2024-07-02T08:46:12.343006 [MAC     ] [W] [   506.4] Skipped slot indication=506.11. Cause: DL task queue is full.
+2024-07-02T08:46:12.343501 [MAC     ] [W] [   506.4] Skipped slot indication=506.12. Cause: DL task queue is full.
+2024-07-02T08:46:12.344000 [MAC     ] [W] [   506.4] Skipped slot indication=506.13. Cause: DL task queue is full.
+2024-07-02T08:46:12.344502 [MAC     ] [W] [   506.4] Skipped slot indication=506.14. Cause: DL task queue is full.
+2024-07-02T08:46:12.345003 [MAC     ] [W] [   506.4] Skipped slot indication=506.15. Cause: DL task queue is full.
+2024-07-02T08:46:12.345504 [MAC     ] [W] [   506.4] Skipped slot indication=506.16. Cause: DL task queue is full.
+2024-07-02T08:46:12.346001 [MAC     ] [W] [   506.4] Skipped slot indication=506.17. Cause: DL task queue is full.
+2024-07-02T08:46:12.346501 [MAC     ] [W] [   506.4] Skipped slot indication=506.18. Cause: DL task queue is full.
+2024-07-02T08:46:12.347003 [MAC     ] [W] [   506.4] Skipped slot indication=506.19. Cause: DL task queue is full.
+2024-07-02T08:46:12.347501 [MAC     ] [W] [   506.4] Skipped slot indication=507.0. Cause: DL task queue is full.
+2024-07-02T08:46:12.347939 [FAPI    ] [W] [   507.0] Real-time failure in FAPI: Received late DL_TTI.request from slot 506.5
+2024-07-02T08:46:12.347943 [OFH     ] [W] Dropped late downlink resource grid in slot '506.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:12.347951 [SCHED   ] [D] [   506.6] Processed slot events:
+- ErrorIndication: slot=506.5, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=506.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.347954 [FAPI    ] [W] [   507.0] Real-time failure in FAPI: Received late DL_TTI.request from slot 506.6
+2024-07-02T08:46:12.347959 [SCHED   ] [D] [   506.7] Processed slot events:
+- ErrorIndication: slot=506.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.347965 [FAPI    ] [W] [   507.0] Real-time failure in FAPI: Received late UL_TTI.request from slot 506.8
+2024-07-02T08:46:12.348005 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.9.
+2024-07-02T08:46:12.348006 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.10.
+2024-07-02T08:46:12.348007 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.11.
+2024-07-02T08:46:12.348007 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.12.
+2024-07-02T08:46:12.348008 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.13.
+2024-07-02T08:46:12.348008 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.14.
+2024-07-02T08:46:12.348009 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.15.
+2024-07-02T08:46:12.348009 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.16.
+2024-07-02T08:46:12.348010 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.17.
+2024-07-02T08:46:12.348010 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.18.
+2024-07-02T08:46:12.348011 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=506.19.
+2024-07-02T08:46:12.348012 [SCHED   ] [I] [   507.1] Status: Detected skipped slot=507.0.
+2024-07-02T08:46:12.348014 [SCHED   ] [W] [   507.1] cell=0, slot=506.8: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:12.348015 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.9.
+2024-07-02T08:46:12.348015 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.10.
+2024-07-02T08:46:12.348015 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.11.
+2024-07-02T08:46:12.348015 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.12.
+2024-07-02T08:46:12.348016 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.13.
+2024-07-02T08:46:12.348016 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.14.
+2024-07-02T08:46:12.348016 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.15.
+2024-07-02T08:46:12.348016 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.16.
+2024-07-02T08:46:12.348016 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.17.
+2024-07-02T08:46:12.348016 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.18.
+2024-07-02T08:46:12.348017 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=506.19.
+2024-07-02T08:46:12.348017 [SCHED   ] [I] [   507.1] UE fallback scheduler: Detected skipped slot=507.0.
+2024-07-02T08:46:12.721504 [MAC     ] [W] [   544.3] Skipped slot indication=544.8. Cause: DL task queue is full.
+2024-07-02T08:46:12.722001 [MAC     ] [W] [   544.3] Skipped slot indication=544.9. Cause: DL task queue is full.
+2024-07-02T08:46:12.722502 [MAC     ] [W] [   544.3] Skipped slot indication=544.10. Cause: DL task queue is full.
+2024-07-02T08:46:12.722846 [FAPI    ] [W] [  544.10] Real-time failure in FAPI: Received late DL_TTI.request from slot 544.4
+2024-07-02T08:46:12.722855 [OFH     ] [W] Dropped late downlink resource grid in slot '544.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:12.722856 [SCHED   ] [D] [   544.5] Processed slot events:
+- ErrorIndication: slot=544.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.722861 [OFH     ] [W] Dropped late downlink resource grid in slot '544.5' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:12.722868 [SCHED   ] [D] [   544.6] Processed slot events:
+- ErrorIndication: slot=544.3, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=544.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.722871 [OFH     ] [W] Dropped late downlink resource grid in slot '544.6' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:12.722884 [SCHED   ] [D] [   544.7] Processed slot events:
+- ErrorIndication: slot=544.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:12.723017 [SCHED   ] [I] [  544.11] Status: Detected skipped slot=544.8.
+2024-07-02T08:46:12.723017 [SCHED   ] [I] [  544.11] Status: Detected skipped slot=544.9.
+2024-07-02T08:46:12.723018 [SCHED   ] [I] [  544.11] Status: Detected skipped slot=544.10.
+2024-07-02T08:46:12.723021 [SCHED   ] [I] [  544.11] UE fallback scheduler: Detected skipped slot=544.8.
+2024-07-02T08:46:12.723021 [SCHED   ] [I] [  544.11] UE fallback scheduler: Detected skipped slot=544.9.
+2024-07-02T08:46:12.723021 [SCHED   ] [I] [  544.11] UE fallback scheduler: Detected skipped slot=544.10.
+2024-07-02T08:46:13.221505 [MAC     ] [W] [   594.3] Skipped slot indication=594.8. Cause: DL task queue is full.
+2024-07-02T08:46:13.222003 [MAC     ] [W] [   594.3] Skipped slot indication=594.9. Cause: DL task queue is full.
+2024-07-02T08:46:13.222503 [MAC     ] [W] [   594.3] Skipped slot indication=594.10. Cause: DL task queue is full.
+2024-07-02T08:46:13.223002 [MAC     ] [W] [   594.3] Skipped slot indication=594.11. Cause: DL task queue is full.
+2024-07-02T08:46:13.223502 [MAC     ] [W] [   594.3] Skipped slot indication=594.12. Cause: DL task queue is full.
+2024-07-02T08:46:13.223901 [FAPI    ] [W] [  594.12] Real-time failure in FAPI: Received late DL_TTI.request from slot 594.4
+2024-07-02T08:46:13.223908 [OFH     ] [W] Dropped late downlink resource grid in slot '594.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:13.223910 [SCHED   ] [D] [   594.5] Processed slot events:
+- ErrorIndication: slot=594.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.223913 [FAPI    ] [W] [  594.12] Real-time failure in FAPI: Received late DL_TTI.request from slot 594.5
+2024-07-02T08:46:13.223920 [SCHED   ] [D] [   594.6] Processed slot events:
+- ErrorIndication: slot=594.3, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=594.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.223923 [FAPI    ] [W] [  594.12] Real-time failure in FAPI: Received late DL_TTI.request from slot 594.6
+2024-07-02T08:46:13.223928 [SCHED   ] [D] [   594.7] Processed slot events:
+- ErrorIndication: slot=594.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.224007 [SCHED   ] [I] [  594.13] Status: Detected skipped slot=594.8.
+2024-07-02T08:46:13.224008 [SCHED   ] [I] [  594.13] Status: Detected skipped slot=594.9.
+2024-07-02T08:46:13.224009 [SCHED   ] [I] [  594.13] Status: Detected skipped slot=594.10.
+2024-07-02T08:46:13.224009 [SCHED   ] [I] [  594.13] Status: Detected skipped slot=594.11.
+2024-07-02T08:46:13.224010 [SCHED   ] [I] [  594.13] Status: Detected skipped slot=594.12.
+2024-07-02T08:46:13.224012 [SCHED   ] [I] [  594.13] UE fallback scheduler: Detected skipped slot=594.8.
+2024-07-02T08:46:13.224013 [SCHED   ] [I] [  594.13] UE fallback scheduler: Detected skipped slot=594.9.
+2024-07-02T08:46:13.224013 [SCHED   ] [I] [  594.13] UE fallback scheduler: Detected skipped slot=594.10.
+2024-07-02T08:46:13.224013 [SCHED   ] [I] [  594.13] UE fallback scheduler: Detected skipped slot=594.11.
+2024-07-02T08:46:13.224013 [SCHED   ] [I] [  594.13] UE fallback scheduler: Detected skipped slot=594.12.
+2024-07-02T08:46:13.410246 [PHY     ] [D] [  612.19] PRACH: rsi=1 rssi=-53.7dB detected_preambles=[{idx=2 ta=0.13us detection_metric=30.6}] t=160.4us
+  rsi=1
+  preambles=[0, 64)
+  format=B4
+  set=unrestricted
+  zcz=0
+  scs=30kHz
+  nof_rx_ports=1
+  rssi=-53.7dB
+  res=0.1us
+  max_ta=12.08us
+  detected_preambles=[{idx=2 ta=0.13us detection_metric=30.6}]
+
+2024-07-02T08:46:13.410517 [SCHED   ] [D] [   613.6] Processed slot events:
+- PRACH: slot=612.19, pci=1 preamble=2 ra-rnti=0x10b temp_crnti=0x4601 ta_cmd=1
+2024-07-02T08:46:13.412519 [SCHED   ] [D] [  613.10] Slot decisions pci=1 t=8us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x10b type=ra-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4 
+- RAR PDSCH: ra-rnti=0x10b rb=[0..3) symb=[1..14) tbs=10 mcs=0 rv=0 grants (1): tc-rnti=0x4601: rapid=2 ta=1 time_res=1
+2024-07-02T08:46:13.412584 [PHY     ] [D] [  613.10] PDSCH: rnti=0x010b prb=[0, 3) symb=[1, 14) mod=QPSK rv=0 tbs=10 t=33.7us
+  rnti=0x010b
+  bwp=[1, 49)
+  prb=[0, 3)
+  symb=[1, 14)
+  mod=QPSK
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=613.10
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:13.412589 [PHY     ] [D] [  613.10] PDCCH: rnti=0x010b ss_id=1 format=1_0 cce=0 al=4 t=41.5us
+  rnti=0x010b
+  ss_id=1
+  format=1_0
+  slot=613.10
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=41.5us
+2024-07-02T08:46:13.416514 [SCHED   ] [D] [  613.18] Slot decisions pci=1 t=1us (0 PDSCHs, 1 PUSCH):
+- UE PUSCH: ue=1024 tc-rnti=0x4601 h_id=0 rb=[3..6) symb=[0..14) tbs=11 rv=0 nrtx=0 msg3_delay=8
+2024-07-02T08:46:13.419931 [PHY     ] [D] [  613.18] PUSCH: rnti=0x4601 h_id=0 prb=[3, 6) symb=[0, 14) mod=QPSK rv=0 tbs=11 crc=OK iter=1.0 sinr=24.8dB t=249.7us uci_t=0.0us ret_t=0.0us
+  rnti=0x4601
+  h_id=0
+  bwp=[0, 273)
+  prb=[3, 6)
+  symb=[0, 14)
+  oack=0
+  ocsi1=0
+  part2=entries=[]
+  alpha=0.0
+  betas=[0.0, 0.0, 0.0]
+  mod=QPSK
+  tcr=0.1171875
+  rv=0
+  bg=2
+  new_data=true
+  n_id=1
+  dmrs_mask=00100001000100
+  n_scr_id=1
+  n_scid=false
+  n_cdm_g_wd=2
+  dmrs_type=1
+  lbrm=3168bytes
+  slot=613.18
+  cp=normal
+  nof_layers=1
+  ports=0
+  dc_position=1638
+  crc=OK
+  iter=1.0
+  max_iter=1
+  min_iter=1
+  nof_cb=1
+  sinr_ch_est=27.9dB
+  sinr_eq[sel]=24.8dB
+  sinr_evm=21.1dB
+  evm=0.06
+  epre=-3.0dB
+  rsrp=-3.4dB
+  sinr=+24.8dB
+  t_align=0.93us
+  cfo=-32.3Hz
+2024-07-02T08:46:13.420040 [MAC     ] [I] [   614.5] UL rnti=0x4601 subPDUs: [CCCH48: len=6, PAD: len=3]
+2024-07-02T08:46:13.420478 [MAC     ] [D] [   614.5] ue=0 crnti=0x4601 proc="MAC UE Creation": started...
+2024-07-02T08:46:13.420512 [MAC     ] [D] [   614.6] UL rnti=0x4601 lcid=52 CE: Discarding remaining subPDUs
+2024-07-02T08:46:13.420515 [MAC     ] [D] [   614.6] ue=0 crnti=0x4601 proc="MAC UE Creation": UE UL context created successfully
+2024-07-02T08:46:13.420544 [MAC     ] [D] [   614.6] ue=0 crnti=0x4601 proc="MAC UE Creation": UE DL context created successfully
+2024-07-02T08:46:13.421023 [SCHED   ] [D] [   614.7] Processed slot events:
+- UE creation: ue=0 rnti=0x4601 pci=1
+2024-07-02T08:46:13.421041 [MAC     ] [I] [   614.7] ue=0 crnti=0x4601 proc="MAC UE Creation": finished successfully
+2024-07-02T08:46:13.421069 [MAC     ] [D] [   614.7] UL subPDU rnti=0x4601 ue=0 lcid=0 CE: Forwarding UL SDU of 6 bytes
+2024-07-02T08:46:13.421293 [RRC     ] [D] Containerized MasterCellGroup: {
+  "cellGroupId": 0,
+  "rlc-BearerToAddModList": [
+    {
+      "logicalChannelIdentity": 1,
+      "servedRadioBearer": {
+        "srb-Identity": 1
+      },
+      "rlc-Config": {
+        "am": {
+          "ul-AM-RLC": {
+            "sn-FieldLength": "size12",
+            "t-PollRetransmit": "ms45",
+            "pollPDU": "infinity",
+            "pollByte": "infinity",
+            "maxRetxThreshold": "t8"
+          },
+          "dl-AM-RLC": {
+            "sn-FieldLength": "size12",
+            "t-Reassembly": "ms35",
+            "t-StatusProhibit": "ms0"
+          }
+        }
+      },
+      "mac-LogicalChannelConfig": {
+        "ul-SpecificParameters": {
+          "priority": 1,
+          "prioritisedBitRate": "infinity",
+          "bucketSizeDuration": "ms5",
+          "logicalChannelGroup": 0,
+          "schedulingRequestID": 0,
+          "logicalChannelSR-Mask": false,
+          "logicalChannelSR-DelayTimerApplied": false
+        }
+      }
+    }
+  ],
+  "mac-CellGroupConfig": {
+    "schedulingRequestConfig": {
+      "schedulingRequestToAddModList": [
+        {
+          "schedulingRequestId": 0,
+          "sr-TransMax": "n64"
+        }
+      ]
+    },
+    "bsr-Config": {
+      "periodicBSR-Timer": "sf10",
+      "retxBSR-Timer": "sf80"
+    },
+    "tag-Config": {
+      "tag-ToAddModList": [
+        {
+          "tag-Id": 0,
+          "timeAlignmentTimer": "infinity"
+        }
+      ]
+    },
+    "phr-Config": {
+      {
+        "phr-PeriodicTimer": "sf10",
+        "phr-ProhibitTimer": "sf10",
+        "phr-Tx-PowerFactorChange": "dB1",
+        "multiplePHR": false,
+        "dummy": false,
+        "phr-Type2OtherCell": false,
+        "phr-ModeOtherCG": "real"
+      }
+    },
+    "skipUplinkTxDynamic": false
+  },
+  "physicalCellGroupConfig": {
+    "pdsch-HARQ-ACK-Codebook": "dynamic"
+  },
+  "spCellConfig": {
+    "spCellConfigDedicated": {
+      "initialDownlinkBWP": {
+        "pdcch-Config": {
+          {
+            "controlResourceSetToAddModList": [
+              {
+                "controlResourceSetId": 1,
+                "frequencyDomainResources": "111111111111111111111111111111111111111111111",
+                "duration": 1,
+                "cce-REG-MappingType": {
+                },
+                "precoderGranularity": "sameAsREG-bundle"
+              }
+            ],
+            "searchSpacesToAddModList": [
+              {
+                "searchSpaceId": 2,
+                "controlResourceSetId": 1,
+                "monitoringSlotPeriodicityAndOffset": {
+                },
+                "monitoringSymbolsWithinSlot": "10000000000000",
+                "nrofCandidates": {
+                  "aggregationLevel1": "n0",
+                  "aggregationLevel2": "n8",
+                  "aggregationLevel4": "n8",
+                  "aggregationLevel8": "n0",
+                  "aggregationLevel16": "n0"
+                },
+                "searchSpaceType": {
+                  "ue-Specific": {
+                    "dci-Formats": "formats0-1-And-1-1"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "pdsch-Config": {
+          {
+            "dmrs-DownlinkForPDSCH-MappingTypeA": {
+              {
+              }
+            },
+            "tci-StatesToAddModList": [
+              {
+                "tci-StateId": 0,
+                "qcl-Type1": {
+                  "referenceSignal": {
+                    "ssb": 0
+                  },
+                  "qcl-Type": "typeD"
+                }
+              }
+            ],
+            "resourceAllocation": "resourceAllocationType1",
+            "rbg-Size": "config1",
+            "mcs-Table": "qam256",
+            "prb-BundlingType": {
+              "staticBundling": {
+                "bundleSize": "wideband"
+              }
+            },
+            "zp-CSI-RS-ResourceToAddModList": [
+              {
+                "zp-CSI-RS-ResourceId": 0,
+                "resourceMapping": {
+                  "frequencyDomainAllocation": {
+                    "row2": "000100000000"
+                  },
+                  "nrofPorts": "p1",
+                  "firstOFDMSymbolInTimeDomain": 8,
+                  "cdm-Type": "noCDM",
+                  "density": {
+                  },
+                  "freqBand": {
+                    "startingRB": 0,
+                    "nrofRBs": 276
+                  }
+                },
+                "periodicityAndOffset": {
+                  "slots40": 4
+                }
+              },
+              {
+                "zp-CSI-RS-ResourceId": 1,
+                "resourceMapping": {
+                  "frequencyDomainAllocation": {
+                    "row2": "001000000000"
+                  },
+                  "nrofPorts": "p1",
+                  "firstOFDMSymbolInTimeDomain": 8,
+                  "cdm-Type": "noCDM",
+                  "density": {
+                  },
+                  "freqBand": {
+                    "startingRB": 0,
+                    "nrofRBs": 276
+                  }
+                },
+                "periodicityAndOffset": {
+                  "slots40": 4
+                }
+              },
+              {
+                "zp-CSI-RS-ResourceId": 2,
+                "resourceMapping": {
+                  "frequencyDomainAllocation": {
+                    "row2": "010000000000"
+                  },
+                  "nrofPorts": "p1",
+                  "firstOFDMSymbolInTimeDomain": 8,
+                  "cdm-Type": "noCDM",
+                  "density": {
+                  },
+                  "freqBand": {
+                    "startingRB": 0,
+                    "nrofRBs": 276
+                  }
+                },
+                "periodicityAndOffset": {
+                  "slots40": 4
+                }
+              },
+              {
+                "zp-CSI-RS-ResourceId": 3,
+                "resourceMapping": {
+                  "frequencyDomainAllocation": {
+                    "row2": "100000000000"
+                  },
+                  "nrofPorts": "p1",
+                  "firstOFDMSymbolInTimeDomain": 8,
+                  "cdm-Type": "noCDM",
+                  "density": {
+                  },
+                  "freqBand": {
+                    "startingRB": 0,
+                    "nrofRBs": 276
+                  }
+                },
+                "periodicityAndOffset": {
+                  "slots40": 4
+                }
+              }
+            ],
+            "p-ZP-CSI-RS-ResourceSet": {
+              {
+                "zp-CSI-RS-ResourceSetId": 0,
+                "zp-CSI-RS-ResourceIdList": [
+                  0,
+                  1,
+                  2,
+                  3
+                ]
+              }
+            }
+          }
+        }
+      },
+      "uplinkConfig": {
+        "initialUplinkBWP": {
+          "pucch-Config": {
+            {
+              "resourceSetToAddModList": [
+                {
+                  "pucch-ResourceSetId": 0,
+                  "resourceList": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ]
+                },
+                {
+                  "pucch-ResourceSetId": 1,
+                  "resourceList": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ]
+                }
+              ],
+              "resourceToAddModList": [
+                {
+                  "pucch-ResourceId": 0,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 0,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 0
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 1,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 6,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 0
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 2,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 0,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 1
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 3,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 6,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 1
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 4,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 0,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 2
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 5,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 6,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 2
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 6,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 0,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 3
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 7,
+                  "startingPRB": 0,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 6,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 3
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 8,
+                  "startingPRB": 272,
+                  "format": {
+                    "format1": {
+                      "initialCyclicShift": 0,
+                      "nrofSymbols": 14,
+                      "startingSymbolIndex": 0,
+                      "timeDomainOCC": 1
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 9,
+                  "startingPRB": 1,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 0
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 10,
+                  "startingPRB": 1,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 2
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 11,
+                  "startingPRB": 1,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 4
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 12,
+                  "startingPRB": 1,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 6
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 13,
+                  "startingPRB": 1,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 8
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 14,
+                  "startingPRB": 1,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 10
+                    }
+                  }
+                },
+                {
+                  "pucch-ResourceId": 15,
+                  "startingPRB": 271,
+                  "format": {
+                    "format2": {
+                      "nrofPRBs": 1,
+                      "nrofSymbols": 2,
+                      "startingSymbolIndex": 10
+                    }
+                  }
+                }
+              ],
+              "format1": {
+                {
+                }
+              },
+              "format2": {
+                {
+                  "maxCodeRate": "zeroDot35",
+                  "simultaneousHARQ-ACK-CSI": "true"
+                }
+              },
+              "schedulingRequestResourceToAddModList": [
+                {
+                  "schedulingRequestResourceId": 1,
+                  "schedulingRequestID": 0,
+                  "periodicityAndOffset": {
+                    "sl40": 8
+                  },
+                  "resource": 8
+                }
+              ],
+              "dl-DataToUL-ACK": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                12,
+                13
+              ]
+            }
+          },
+          "pusch-Config": {
+            {
+              "txConfig": "codebook",
+              "dmrs-UplinkForPUSCH-MappingTypeA": {
+                {
+                  "transformPrecodingDisabled": {
+                  }
+                }
+              },
+              "pusch-PowerControl": {
+                "msg3-Alpha": "alpha1",
+                "p0-NominalWithoutGrant": -76,
+                "p0-AlphaSets": [
+                  {
+                    "p0-PUSCH-AlphaSetId": 0,
+                    "p0": 0,
+                    "alpha": "alpha1"
+                  }
+                ],
+                "pathlossReferenceRSToAddModList": [
+                  {
+                    "pusch-PathlossReferenceRS-Id": 0,
+                    "referenceSignal": {
+                      "ssb-Index": 0
+                    }
+                  }
+                ],
+                "sri-PUSCH-MappingToAddModList": [
+                  {
+                    "sri-PUSCH-PowerControlId": 0,
+                    "sri-PUSCH-PathlossReferenceRS-Id": 0,
+                    "sri-P0-PUSCH-AlphaSetId": 0,
+                    "sri-PUSCH-ClosedLoopIndex": "i0"
+                  }
+                ]
+              },
+              "resourceAllocation": "resourceAllocationType1",
+              "transformPrecoder": "disabled",
+              "codebookSubset": "nonCoherent",
+              "maxRank": 1,
+              "uci-OnPUSCH": {
+                {
+                  "betaOffsets": {
+                    "semiStatic": {
+                      "betaOffsetACK-Index1": 9,
+                      "betaOffsetACK-Index2": 9,
+                      "betaOffsetACK-Index3": 9,
+                      "betaOffsetCSI-Part1-Index1": 9,
+                      "betaOffsetCSI-Part1-Index2": 9,
+                      "betaOffsetCSI-Part2-Index1": 9,
+                      "betaOffsetCSI-Part2-Index2": 9
+                    }
+                  },
+                  "scaling": "f1"
+                }
+              }
+            }
+          },
+          "srs-Config": {
+            {
+              "srs-ResourceSetToAddModList": [
+                {
+                  "srs-ResourceSetId": 0,
+                  "srs-ResourceIdList": [
+                    0
+                  ],
+                  "resourceType": {
+                    "aperiodic": {
+                      "aperiodicSRS-ResourceTrigger": 1,
+                      "slotOffset": 7
+                    }
+                  },
+                  "usage": "codebook",
+                  "p0": -84,
+                  "pathlossReferenceRS": {
+                    "ssb-Index": 0
+                  }
+                }
+              ],
+              "srs-ResourceToAddModList": [
+                {
+                  "srs-ResourceId": 0,
+                  "nrofSRS-Ports": "port1",
+                  "transmissionComb": {
+                    "n2": {
+                      "combOffset-n2": 0,
+                      "cyclicShift-n2": 0
+                    }
+                  },
+                  "resourceMapping": {
+                    "startPosition": 0,
+                    "nrofSymbols": "n1",
+                    "repetitionFactor": "n1"
+                  },
+                  "freqDomainPosition": 0,
+                  "freqDomainShift": 5,
+                  "freqHopping": {
+                    "c-SRS": 0,
+                    "b-SRS": 0,
+                    "b-hop": 0
+                  },
+                  "groupOrSequenceHopping": "neither",
+                  "resourceType": {
+                    "aperiodic": {
+                    }
+                  },
+                  "sequenceId": 1
+                }
+              ]
+            }
+          }
+        }
+      },
+      "pdsch-ServingCellConfig": {
+        {
+          "nrofHARQ-ProcessesForPDSCH": "n16"
+        }
+      },
+      "csi-MeasConfig": {
+        {
+          "nzp-CSI-RS-ResourceToAddModList": [
+            {
+              "nzp-CSI-RS-ResourceId": 0,
+              "resourceMapping": {
+                "frequencyDomainAllocation": {
+                  "row2": "100000000000"
+                },
+                "nrofPorts": "p1",
+                "firstOFDMSymbolInTimeDomain": 4,
+                "cdm-Type": "noCDM",
+                "density": {
+                },
+                "freqBand": {
+                  "startingRB": 0,
+                  "nrofRBs": 276
+                }
+              },
+              "powerControlOffset": 0,
+              "powerControlOffsetSS": "db0",
+              "scramblingID": 1,
+              "periodicityAndOffset": {
+                "slots40": 4
+              },
+              "qcl-InfoPeriodicCSI-RS": 0
+            },
+            {
+              "nzp-CSI-RS-ResourceId": 1,
+              "resourceMapping": {
+                "frequencyDomainAllocation": {
+                  "row1": "0001"
+                },
+                "nrofPorts": "p1",
+                "firstOFDMSymbolInTimeDomain": 4,
+                "cdm-Type": "noCDM",
+                "density": {
+                },
+                "freqBand": {
+                  "startingRB": 0,
+                  "nrofRBs": 276
+                }
+              },
+              "powerControlOffset": 0,
+              "powerControlOffsetSS": "db0",
+              "scramblingID": 1,
+              "periodicityAndOffset": {
+                "slots40": 2
+              },
+              "qcl-InfoPeriodicCSI-RS": 0
+            },
+            {
+              "nzp-CSI-RS-ResourceId": 2,
+              "resourceMapping": {
+                "frequencyDomainAllocation": {
+                  "row1": "0001"
+                },
+                "nrofPorts": "p1",
+                "firstOFDMSymbolInTimeDomain": 8,
+                "cdm-Type": "noCDM",
+                "density": {
+                },
+                "freqBand": {
+                  "startingRB": 0,
+                  "nrofRBs": 276
+                }
+              },
+              "powerControlOffset": 0,
+              "powerControlOffsetSS": "db0",
+              "scramblingID": 1,
+              "periodicityAndOffset": {
+                "slots40": 2
+              },
+              "qcl-InfoPeriodicCSI-RS": 0
+            },
+            {
+              "nzp-CSI-RS-ResourceId": 3,
+              "resourceMapping": {
+                "frequencyDomainAllocation": {
+                  "row1": "0001"
+                },
+                "nrofPorts": "p1",
+                "firstOFDMSymbolInTimeDomain": 4,
+                "cdm-Type": "noCDM",
+                "density": {
+                },
+                "freqBand": {
+                  "startingRB": 0,
+                  "nrofRBs": 276
+                }
+              },
+              "powerControlOffset": 0,
+              "powerControlOffsetSS": "db0",
+              "scramblingID": 1,
+              "periodicityAndOffset": {
+                "slots40": 3
+              },
+              "qcl-InfoPeriodicCSI-RS": 0
+            },
+            {
+              "nzp-CSI-RS-ResourceId": 4,
+              "resourceMapping": {
+                "frequencyDomainAllocation": {
+                  "row1": "0001"
+                },
+                "nrofPorts": "p1",
+                "firstOFDMSymbolInTimeDomain": 8,
+                "cdm-Type": "noCDM",
+                "density": {
+                },
+                "freqBand": {
+                  "startingRB": 0,
+                  "nrofRBs": 276
+                }
+              },
+              "powerControlOffset": 0,
+              "powerControlOffsetSS": "db0",
+              "scramblingID": 1,
+              "periodicityAndOffset": {
+                "slots40": 3
+              },
+              "qcl-InfoPeriodicCSI-RS": 0
+            }
+          ],
+          "nzp-CSI-RS-ResourceSetToAddModList": [
+            {
+              "nzp-CSI-ResourceSetId": 0,
+              "nzp-CSI-RS-Resources": [
+                0
+              ]
+            },
+            {
+              "nzp-CSI-ResourceSetId": 1,
+              "nzp-CSI-RS-Resources": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "trs-Info": "true"
+            }
+          ],
+          "csi-IM-ResourceToAddModList": [
+            {
+              "csi-IM-ResourceId": 0,
+              "csi-IM-ResourceElementPattern": {
+                "pattern1": {
+                  "subcarrierLocation-p1": "s8",
+                  "symbolLocation-p1": 8
+                }
+              },
+              "freqBand": {
+                "startingRB": 0,
+                "nrofRBs": 276
+              },
+              "periodicityAndOffset": {
+                "slots40": 4
+              }
+            }
+          ],
+          "csi-IM-ResourceSetToAddModList": [
+            {
+              "csi-IM-ResourceSetId": 0,
+              "csi-IM-Resources": [
+                0
+              ]
+            }
+          ],
+          "csi-ResourceConfigToAddModList": [
+            {
+              "csi-ResourceConfigId": 0,
+              "csi-RS-ResourceSetList": {
+                "nzp-CSI-RS-SSB": {
+                  "nzp-CSI-RS-ResourceSetList": [
+                    0
+                  ]
+                }
+              },
+              "bwp-Id": 0,
+              "resourceType": "periodic"
+            },
+            {
+              "csi-ResourceConfigId": 1,
+              "csi-RS-ResourceSetList": {
+                "csi-IM-ResourceSetList": [
+                  0
+                ]
+              },
+              "bwp-Id": 0,
+              "resourceType": "periodic"
+            },
+            {
+              "csi-ResourceConfigId": 2,
+              "csi-RS-ResourceSetList": {
+                "nzp-CSI-RS-SSB": {
+                  "nzp-CSI-RS-ResourceSetList": [
+                    1
+                  ]
+                }
+              },
+              "bwp-Id": 0,
+              "resourceType": "periodic"
+            }
+          ],
+          "csi-ReportConfigToAddModList": [
+            {
+              "reportConfigId": 0,
+              "resourcesForChannelMeasurement": 0,
+              "csi-IM-ResourcesForInterference": 1,
+              "reportConfigType": {
+                "periodic": {
+                  "reportSlotConfig": {
+                    "slots40": 9
+                  },
+                  "pucch-CSI-ResourceList": [
+                    {
+                      "uplinkBandwidthPartId": 0,
+                      "pucch-Resource": 15
+                    }
+                  ]
+                }
+              },
+              "reportQuantity": {
+              },
+              "reportFreqConfiguration": {
+                "cqi-FormatIndicator": "widebandCQI",
+                "pmi-FormatIndicator": "widebandPMI"
+              },
+              "timeRestrictionForChannelMeasurements": "notConfigured",
+              "timeRestrictionForInterferenceMeasurements": "notConfigured",
+              "groupBasedBeamReporting": {
+                "disabled": {
+                }
+              },
+              "cqi-Table": "table2",
+              "subbandSize": "value1",
+              "non-PMI-PortIndication": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "tag-Id": 0
+    }
+  }
+}
+2024-07-02T08:46:13.421328 [RRC     ] [D] ue=0 c-rnti=0x4601: Rx CCCH UL rrcSetupRequest (6 B)
+2024-07-02T08:46:13.421331 [RRC     ] [D] ue=0 c-rnti=0x4601: Containerized rrcSetupRequest: [
+  {
+    "UL-CCCH-Message": {
+      "message": {
+        "c1": {
+          "rrcSetupRequest": {
+            "rrcSetupRequest": {
+              "ue-Identity": {
+                "randomValue": "110011000111111101011100111111010000110"
+              },
+              "establishmentCause": "mo-Signalling",
+              "spare": "0"
+            }
+          }
+        }
+      }
+    }
+  }
+]
+2024-07-02T08:46:13.421333 [RRC     ] [D] ue=0 c-rnti=0x4601: Creating SRB1
+2024-07-02T08:46:13.421386 [RRC     ] [D] ue=0 c-rnti=0x4601: Tx CCCH DL rrcSetup (316 B)
+2024-07-02T08:46:13.421387 [RRC     ] [D] ue=0 c-rnti=0x4601: Containerized rrcSetup: [
+  {
+    "DL-CCCH-Message": {
+      "message": {
+        "c1": {
+          "rrcSetup": {
+            "rrc-TransactionIdentifier": 0,
+            "criticalExtensions": {
+              "rrcSetup": {
+                "radioBearerConfig": {
+                  "srb-ToAddModList": [
+                    {
+                      "srb-Identity": 1
+                    }
+                  ]
+                },
+                "masterCellGroup": "5c00b001117aec701061e0007c0204683c080004120981950001fffffffffff906e10840003f02ca014180000010346340220020400fc71108900081003f1c444280020400fc71118c00081003f1c480c0110d035564841c001040c2050c1c9448a163068e1e000010a00010016a00020010a02030016a02040010a04050016a04060010a06070016a06088810a020900a08028028240b00a0a0300282c0d00a0c038028340f87a0d4092c6051023a2b3c4e6cd03a41078bbf03043800000071ffa5294a529e502c0000432ec000000000000a0000018ad5450047001800082007e21005c400e020210800fc4200b8401c080441001f88401708038180842003f10802e18070401104007e21005c300080000008218081018201c1a000fc71000000080100020180020240088029800008c48079c72018"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
+2024-07-02T08:46:13.421387 [RRC     ] [D] ue=0 c-rnti=0x4601: TX SRB0 PDU
+2024-07-02T08:46:13.421508 [SCHED   ] [D] [   614.8] Processed slot events:
+- MAC CE: ue=0 lcid=62
+- RLC Buffer State: ue=0 lcid=0 pending_bytes=316
+2024-07-02T08:46:13.421510 [SCHED   ] [D] [   614.8] Slot decisions pci=1 t=4us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.422011 [SCHED   ] [D] [   614.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.422510 [SCHED   ] [D] [  614.10] rnti=0x4601: Failed to allocate PDSCH for SRB0 for slot=614.10. Cause: No space in PUCCH
+2024-07-02T08:46:13.423013 [SCHED   ] [D] [  614.11] Slot decisions pci=1 t=5us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=tc-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=1 rv=0 mcs=3 res_ind=3
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..45) symb=[1..14) tbs=333 mcs=3 rv=0 nrtx=0 k1=7 olla=0.00 grants: lcid=62: size=6, lcid=0: size=323
+2024-07-02T08:46:13.423030 [MAC     ] [D] [  614.11] ue=0 rnti=0x4601 lcid=0: Unable to encode MAC SDU in MAC opportunity of size=5.
+2024-07-02T08:46:13.423033 [MAC     ] [I] [  614.11] DL PDU: ue=0 rnti=0x4601 size=333: CON_RES: id=1cc7f5cfd0c6, SDU: lcid=0 nof_sdus=1 total_size=319
+2024-07-02T08:46:13.423062 [PHY     ] [D] [  614.11] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=22.8us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=614.11
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=22.8us
+2024-07-02T08:46:13.423111 [PHY     ] [D] [  614.11] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 45) symb=[1, 14) mod=QPSK rv=0 tbs=333 t=65.9us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 45)
+  symb=[1, 14)
+  mod=QPSK
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=614.11
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:13.423522 [SCHED   ] [D] [  614.12] Processed slot events:
+- RLC Buffer State: ue=0 lcid=0 pending_bytes=0
+2024-07-02T08:46:13.424780 [PHY     ] [D] [   614.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=84.9us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=614.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.425112 [PHY     ] [D] [   614.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=54.0us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=614.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.426521 [SCHED   ] [D] [  614.18] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[3..4) second_prbs=[269..270) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:13.429728 [PHY     ] [D] [  614.18] PUCCH: rnti=0x4601 format=1 prb1=3 prb2=269 symb=[0, 14) cs=0 occ=0 ack=2 t=64.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=3
+  prb2=269
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=614.18
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=3.7dB
+  epre=-17.9dB
+  rsrp=-19.4dB
+  sinr=+3.7dB
+  t_align=0.00us
+  cfo=-11.8Hz
+2024-07-02T08:46:13.430028 [SCHED   ] [D] [   615.5] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=615.9
+2024-07-02T08:46:13.430036 [SCHED   ] [D] [   615.5] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=614.18 h_id=0 ack=2
+2024-07-02T08:46:13.430039 [SCHED   ] [D] [   615.5] Slot decisions pci=1 t=15us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=tc-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=1 rv=0 mcs=3 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..45) symb=[1..14) tbs=333 mcs=3 rv=0 nrtx=1 k1=4 olla=0.00
+2024-07-02T08:46:13.430068 [PHY     ] [D] [   615.5] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=17.2us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=615.5
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=17.2us
+2024-07-02T08:46:13.430120 [PHY     ] [D] [   615.5] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 45) symb=[1, 14) mod=QPSK rv=0 tbs=333 t=66.4us
+  rnti=0x4601
+  h_id=0
+  k1=4
+  bwp=[1, 49)
+  prb=[0, 45)
+  symb=[1, 14)
+  mod=QPSK
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=615.5
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:13.432018 [SCHED   ] [D] [   615.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:13.435197 [PHY     ] [D] [   615.9] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=2 t=32.1us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=615.9
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.1
+  sinr_ch_est[sel]=-33.1dB
+  epre=-46.1dB
+  rsrp=-79.2dB
+  sinr=-33.1dB
+  t_align=0.00us
+  cfo=-6360.2Hz
+2024-07-02T08:46:13.435245 [PHY     ] [D] [   615.9] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=76.5us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=615.9
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-14.7dB
+  epre=-52.0dB
+  rsrp=-66.8dB
+  sinr=-14.7dB
+  t_align=0.00us
+  cfo=-3180.1Hz
+2024-07-02T08:46:13.435515 [SCHED   ] [D] [  615.16] rnti=0x4601: Failed to allocate PDSCH for SRB0 for slot=615.16. Cause: No space in PUCCH
+2024-07-02T08:46:13.435516 [SCHED   ] [D] [  615.16] rnti=0x4601: Postponed SRB0 PDU scheduling. Cause: Not enough PRBs (15 < 45)
+2024-07-02T08:46:13.435519 [SCHED   ] [D] [  615.16] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=616.8
+2024-07-02T08:46:13.435525 [SCHED   ] [D] [  615.16] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=615.9 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=615.9 h_id=0 ack=2
+2024-07-02T08:46:13.438016 [SCHED   ] [D] [   616.1] Slot decisions pci=1 t=5us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=tc-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=1 rv=0 mcs=3 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..45) symb=[1..14) tbs=333 mcs=3 rv=0 nrtx=2 k1=7 olla=0.00
+2024-07-02T08:46:13.438057 [PHY     ] [D] [   616.1] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=22.5us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=616.1
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=22.5us
+2024-07-02T08:46:13.438083 [PHY     ] [D] [   616.1] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 45) symb=[1, 14) mod=QPSK rv=0 tbs=333 t=53.2us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 45)
+  symb=[1, 14)
+  mod=QPSK
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=616.1
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:13.441511 [SCHED   ] [D] [   616.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=1 sr=1
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:13.442020 [SCHED   ] [D] [   616.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.444687 [PHY     ] [D] [   616.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 ack=2 t=32.2us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=616.8
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.444698 [PHY     ] [D] [   616.8] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=2 t=39.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=616.8
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-21.9dB
+  epre=-43.4dB
+  rsrp=-65.3dB
+  sinr=-21.9dB
+  t_align=0.00us
+  cfo=-221.9Hz
+2024-07-02T08:46:13.444729 [PHY     ] [D] [   616.8] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=38.4us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=616.8
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-17.2dB
+  epre=-48.0dB
+  rsrp=-65.3dB
+  sinr=-17.2dB
+  t_align=0.00us
+  cfo=-110.9Hz
+2024-07-02T08:46:13.445013 [SCHED   ] [D] [  616.15] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=616.19
+2024-07-02T08:46:13.445020 [SCHED   ] [D] [  616.15] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=616.8 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=616.8 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=616.8 h_id=0 ack=2
+2024-07-02T08:46:13.445022 [SCHED   ] [D] [  616.15] Slot decisions pci=1 t=12us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=tc-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=1 rv=0 mcs=3 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..45) symb=[1..14) tbs=333 mcs=3 rv=0 nrtx=3 k1=4 olla=0.00
+2024-07-02T08:46:13.445062 [PHY     ] [D] [  616.15] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=21.7us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=616.15
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=21.7us
+2024-07-02T08:46:13.445081 [PHY     ] [D] [   616.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=26.6us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=616.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.445089 [PHY     ] [D] [  616.15] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 45) symb=[1, 14) mod=QPSK rv=0 tbs=333 t=48.8us
+  rnti=0x4601
+  h_id=0
+  k1=4
+  bwp=[1, 49)
+  prb=[0, 45)
+  symb=[1, 14)
+  mod=QPSK
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=616.15
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:13.447009 [SCHED   ] [D] [  616.19] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:13.450186 [PHY     ] [D] [  616.19] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=41.1us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=616.19
+  cp=normal
+  ports=0
+  status=valid
+  ack=1
+  detection_metric=59.8
+  sinr_ch_est[sel]=4.5dB
+  epre=-18.4dB
+  rsrp=-19.7dB
+  sinr=+4.5dB
+  t_align=0.00us
+  cfo=+30.9Hz
+2024-07-02T08:46:13.450246 [PHY     ] [D] [  616.19] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=54.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=616.19
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=4.6dB
+  epre=-20.8dB
+  rsrp=-22.1dB
+  sinr=+4.6dB
+  t_align=0.00us
+  cfo=+15.4Hz
+2024-07-02T08:46:13.450524 [SCHED   ] [D] [   617.6] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=616.19 h_id=0 ack=1 tbs=333
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=616.19 h_id=0 ack=2
+2024-07-02T08:46:13.461514 [SCHED   ] [D] [   618.8] Slot decisions pci=1 t=3us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.462009 [SCHED   ] [D] [   618.9] Slot decisions pci=1 t=3us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.464725 [PHY     ] [D] [   618.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=52.0us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=618.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.465122 [PHY     ] [D] [   618.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=52.9us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=618.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.471003 [MAC     ] [W] [   619.2] Skipped slot indication=619.7. Cause: DL task queue is full.
+2024-07-02T08:46:13.471502 [MAC     ] [W] [   619.2] Skipped slot indication=619.8. Cause: DL task queue is full.
+2024-07-02T08:46:13.472005 [MAC     ] [W] [   619.2] Skipped slot indication=619.9. Cause: DL task queue is full.
+2024-07-02T08:46:13.472503 [MAC     ] [W] [   619.2] Skipped slot indication=619.10. Cause: DL task queue is full.
+2024-07-02T08:46:13.473005 [MAC     ] [W] [   619.2] Skipped slot indication=619.11. Cause: DL task queue is full.
+2024-07-02T08:46:13.473504 [MAC     ] [W] [   619.2] Skipped slot indication=619.12. Cause: DL task queue is full.
+2024-07-02T08:46:13.474003 [MAC     ] [W] [   619.2] Skipped slot indication=619.13. Cause: DL task queue is full.
+2024-07-02T08:46:13.474501 [MAC     ] [W] [   619.2] Skipped slot indication=619.14. Cause: DL task queue is full.
+2024-07-02T08:46:13.474505 [OFH     ] [W] Dropped late downlink resource grid in slot '619.2' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:13.474515 [SCHED   ] [D] [   619.3] Processed slot events:
+- ErrorIndication: slot=619.2, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.474518 [FAPI    ] [W] [  619.14] Real-time failure in FAPI: Received late DL_TTI.request from slot 619.3
+2024-07-02T08:46:13.474528 [SCHED   ] [D] [   619.4] Processed slot events:
+- ErrorIndication: slot=619.3, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.474530 [FAPI    ] [W] [  619.14] Real-time failure in FAPI: Received late DL_TTI.request from slot 619.4
+2024-07-02T08:46:13.474541 [SCHED   ] [D] [   619.5] Processed slot events:
+- ErrorIndication: slot=619.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.474543 [FAPI    ] [W] [  619.14] Real-time failure in FAPI: Received late DL_TTI.request from slot 619.5
+2024-07-02T08:46:13.474553 [SCHED   ] [D] [   619.6] Processed slot events:
+- ErrorIndication: slot=619.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.474555 [FAPI    ] [W] [  619.14] Real-time failure in FAPI: Received late DL_TTI.request from slot 619.6
+2024-07-02T08:46:13.475012 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.7.
+2024-07-02T08:46:13.475012 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.8.
+2024-07-02T08:46:13.475013 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.9.
+2024-07-02T08:46:13.475014 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.10.
+2024-07-02T08:46:13.475015 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.11.
+2024-07-02T08:46:13.475015 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.12.
+2024-07-02T08:46:13.475016 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.13.
+2024-07-02T08:46:13.475016 [SCHED   ] [I] [  619.15] Status: Detected skipped slot=619.14.
+2024-07-02T08:46:13.475019 [SCHED   ] [W] [  619.15] cell=0, slot=619.6: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:13.475020 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.7.
+2024-07-02T08:46:13.475020 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.8.
+2024-07-02T08:46:13.475021 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.9.
+2024-07-02T08:46:13.475021 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.10.
+2024-07-02T08:46:13.475021 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.11.
+2024-07-02T08:46:13.475021 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.12.
+2024-07-02T08:46:13.475021 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.13.
+2024-07-02T08:46:13.475021 [SCHED   ] [I] [  619.15] UE fallback scheduler: Detected skipped slot=619.14.
+2024-07-02T08:46:13.481516 [SCHED   ] [D] [   620.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.482012 [SCHED   ] [D] [   620.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.484787 [PHY     ] [D] [   620.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=620.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.485170 [PHY     ] [D] [   620.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=39.6us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=620.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.501515 [SCHED   ] [D] [   622.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.502010 [SCHED   ] [D] [   622.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.504697 [PHY     ] [D] [   622.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.2us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=622.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.505165 [PHY     ] [D] [   622.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.2us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=622.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.521508 [SCHED   ] [D] [   624.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.522016 [SCHED   ] [D] [   624.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.524786 [PHY     ] [D] [   624.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=624.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.525265 [PHY     ] [D] [   624.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=35.9us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=624.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.541515 [SCHED   ] [D] [   626.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.542008 [SCHED   ] [D] [   626.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.544770 [PHY     ] [D] [   626.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.3us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=626.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.545159 [PHY     ] [D] [   626.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.4us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=626.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.561506 [SCHED   ] [D] [   628.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.562013 [SCHED   ] [D] [   628.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.564782 [PHY     ] [D] [   628.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=628.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.565160 [PHY     ] [D] [   628.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=628.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.581514 [SCHED   ] [D] [   630.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.582009 [SCHED   ] [D] [   630.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.584691 [PHY     ] [D] [   630.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=30.2us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=630.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.585180 [PHY     ] [D] [   630.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=41.0us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=630.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.601512 [SCHED   ] [D] [   632.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.602014 [SCHED   ] [D] [   632.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.604699 [PHY     ] [D] [   632.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=37.7us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=632.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.605181 [PHY     ] [D] [   632.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=40.9us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=632.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.621519 [SCHED   ] [D] [   634.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.622007 [SCHED   ] [D] [   634.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.624693 [PHY     ] [D] [   634.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=34.0us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=634.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.625196 [PHY     ] [D] [   634.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=40.9us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=634.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.641508 [SCHED   ] [D] [   636.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.642015 [SCHED   ] [D] [   636.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.644773 [PHY     ] [D] [   636.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.0us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=636.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.645168 [PHY     ] [D] [   636.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=636.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.661517 [SCHED   ] [D] [   638.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.662018 [SCHED   ] [D] [   638.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.664740 [PHY     ] [D] [   638.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=42.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=638.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.665172 [PHY     ] [D] [   638.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=39.0us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=638.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.681517 [SCHED   ] [D] [   640.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.682010 [SCHED   ] [D] [   640.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.684735 [PHY     ] [D] [   640.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.7us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=640.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.685167 [PHY     ] [D] [   640.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.4us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=640.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.701516 [SCHED   ] [D] [   642.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.702006 [SCHED   ] [D] [   642.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.704705 [PHY     ] [D] [   642.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=42.1us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=642.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.705172 [PHY     ] [D] [   642.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=39.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=642.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.722004 [MAC     ] [W] [   644.4] Skipped slot indication=644.9. Cause: DL task queue is full.
+2024-07-02T08:46:13.722504 [MAC     ] [W] [   644.4] Skipped slot indication=644.10. Cause: DL task queue is full.
+2024-07-02T08:46:13.723005 [MAC     ] [W] [   644.4] Skipped slot indication=644.11. Cause: DL task queue is full.
+2024-07-02T08:46:13.723506 [MAC     ] [W] [   644.4] Skipped slot indication=644.12. Cause: DL task queue is full.
+2024-07-02T08:46:13.724004 [MAC     ] [W] [   644.4] Skipped slot indication=644.13. Cause: DL task queue is full.
+2024-07-02T08:46:13.724500 [MAC     ] [W] [   644.4] Skipped slot indication=644.14. Cause: DL task queue is full.
+2024-07-02T08:46:13.724904 [FAPI    ] [W] [  644.14] Real-time failure in FAPI: Received late DL_TTI.request from slot 644.5
+2024-07-02T08:46:13.724913 [OFH     ] [W] Dropped late downlink resource grid in slot '644.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:13.724919 [SCHED   ] [D] [   644.6] Processed slot events:
+- ErrorIndication: slot=644.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.724922 [FAPI    ] [W] [  644.14] Real-time failure in FAPI: Received late DL_TTI.request from slot 644.6
+2024-07-02T08:46:13.724930 [SCHED   ] [D] [   644.7] Processed slot events:
+- ErrorIndication: slot=644.4, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=644.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.724936 [SCHED   ] [D] [   644.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.724938 [FAPI    ] [W] [  644.14] Real-time failure in FAPI: Received late UL_TTI.request from slot 644.8
+2024-07-02T08:46:13.725006 [SCHED   ] [I] [  644.15] Status: Detected skipped slot=644.9.
+2024-07-02T08:46:13.725007 [SCHED   ] [I] [  644.15] Status: Detected skipped slot=644.10.
+2024-07-02T08:46:13.725008 [SCHED   ] [I] [  644.15] Status: Detected skipped slot=644.11.
+2024-07-02T08:46:13.725008 [SCHED   ] [I] [  644.15] Status: Detected skipped slot=644.12.
+2024-07-02T08:46:13.725009 [SCHED   ] [I] [  644.15] Status: Detected skipped slot=644.13.
+2024-07-02T08:46:13.725010 [SCHED   ] [I] [  644.15] Status: Detected skipped slot=644.14.
+2024-07-02T08:46:13.725013 [SCHED   ] [I] [  644.15] UE fallback scheduler: Detected skipped slot=644.9.
+2024-07-02T08:46:13.725013 [SCHED   ] [I] [  644.15] UE fallback scheduler: Detected skipped slot=644.10.
+2024-07-02T08:46:13.725013 [SCHED   ] [I] [  644.15] UE fallback scheduler: Detected skipped slot=644.11.
+2024-07-02T08:46:13.725014 [SCHED   ] [I] [  644.15] UE fallback scheduler: Detected skipped slot=644.12.
+2024-07-02T08:46:13.725014 [SCHED   ] [I] [  644.15] UE fallback scheduler: Detected skipped slot=644.13.
+2024-07-02T08:46:13.725014 [SCHED   ] [I] [  644.15] UE fallback scheduler: Detected skipped slot=644.14.
+2024-07-02T08:46:13.725021 [SCHED   ] [D] [  644.15] Processed slot events:
+- ErrorIndication: slot=644.8, PUSCH and PUCCH discarded
+2024-07-02T08:46:13.741514 [SCHED   ] [D] [   646.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.742017 [SCHED   ] [D] [   646.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.744796 [PHY     ] [D] [   646.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=48.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=646.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.745269 [PHY     ] [D] [   646.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=41.4us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=646.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.761509 [SCHED   ] [D] [   648.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.762016 [SCHED   ] [D] [   648.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.764780 [PHY     ] [D] [   648.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.5us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=648.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.765164 [PHY     ] [D] [   648.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.6us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=648.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.781510 [SCHED   ] [D] [   650.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.782012 [SCHED   ] [D] [   650.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.784670 [PHY     ] [D] [   650.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=43.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=650.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.785192 [PHY     ] [D] [   650.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=42.7us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=650.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.801518 [SCHED   ] [D] [   652.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.802011 [SCHED   ] [D] [   652.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.804660 [PHY     ] [D] [   652.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.9us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=652.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.805132 [PHY     ] [D] [   652.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=60.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=652.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.821508 [SCHED   ] [D] [   654.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.822013 [SCHED   ] [D] [   654.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.824639 [PHY     ] [D] [   654.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=49.9us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=654.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.825070 [PHY     ] [D] [   654.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=50.8us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=654.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.841511 [SCHED   ] [D] [   656.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.842018 [SCHED   ] [D] [   656.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.844664 [PHY     ] [D] [   656.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=40.3us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=656.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.845170 [PHY     ] [D] [   656.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=37.0us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=656.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.861501 [MAC     ] [W] [   658.3] Skipped slot indication=658.8. Cause: DL task queue is full.
+2024-07-02T08:46:13.862001 [MAC     ] [W] [   658.3] Skipped slot indication=658.9. Cause: DL task queue is full.
+2024-07-02T08:46:13.862502 [MAC     ] [W] [   658.3] Skipped slot indication=658.10. Cause: DL task queue is full.
+2024-07-02T08:46:13.863000 [MAC     ] [W] [   658.3] Skipped slot indication=658.11. Cause: DL task queue is full.
+2024-07-02T08:46:13.863501 [MAC     ] [W] [   658.3] Skipped slot indication=658.12. Cause: DL task queue is full.
+2024-07-02T08:46:13.864004 [MAC     ] [W] [   658.3] Skipped slot indication=658.13. Cause: DL task queue is full.
+2024-07-02T08:46:13.864503 [MAC     ] [W] [   658.3] Skipped slot indication=658.14. Cause: DL task queue is full.
+2024-07-02T08:46:13.865000 [MAC     ] [W] [   658.3] Skipped slot indication=658.15. Cause: DL task queue is full.
+2024-07-02T08:46:13.865388 [OFH     ] [W] Dropped late downlink resource grid in slot '658.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:13.865392 [FAPI    ] [W] [  658.15] Real-time failure in FAPI: Received late DL_TTI.request from slot 658.4
+2024-07-02T08:46:13.865406 [SCHED   ] [D] [   658.5] Processed slot events:
+- ErrorIndication: slot=658.3, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=658.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.865409 [FAPI    ] [W] [  658.15] Real-time failure in FAPI: Received late DL_TTI.request from slot 658.5
+2024-07-02T08:46:13.865419 [SCHED   ] [D] [   658.6] Processed slot events:
+- ErrorIndication: slot=658.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.865422 [FAPI    ] [W] [  658.15] Real-time failure in FAPI: Received late DL_TTI.request from slot 658.6
+2024-07-02T08:46:13.865427 [SCHED   ] [D] [   658.7] Processed slot events:
+- ErrorIndication: slot=658.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:13.865508 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.8.
+2024-07-02T08:46:13.865509 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.9.
+2024-07-02T08:46:13.865509 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.10.
+2024-07-02T08:46:13.865510 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.11.
+2024-07-02T08:46:13.865510 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.12.
+2024-07-02T08:46:13.865511 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.13.
+2024-07-02T08:46:13.865511 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.14.
+2024-07-02T08:46:13.865512 [SCHED   ] [I] [  658.16] Status: Detected skipped slot=658.15.
+2024-07-02T08:46:13.865517 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.8.
+2024-07-02T08:46:13.865517 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.9.
+2024-07-02T08:46:13.865517 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.10.
+2024-07-02T08:46:13.865518 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.11.
+2024-07-02T08:46:13.865518 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.12.
+2024-07-02T08:46:13.865518 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.13.
+2024-07-02T08:46:13.865518 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.14.
+2024-07-02T08:46:13.865518 [SCHED   ] [I] [  658.16] UE fallback scheduler: Detected skipped slot=658.15.
+2024-07-02T08:46:13.881513 [SCHED   ] [D] [   660.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.882014 [SCHED   ] [D] [   660.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.884675 [PHY     ] [D] [   660.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=47.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=660.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.885088 [PHY     ] [D] [   660.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=32.0us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=660.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.901513 [SCHED   ] [D] [   662.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.902019 [SCHED   ] [D] [   662.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.904755 [PHY     ] [D] [   662.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.3us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=662.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.905033 [PHY     ] [D] [   662.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=25.7us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=662.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.921510 [SCHED   ] [D] [   664.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.922016 [SCHED   ] [D] [   664.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.924744 [PHY     ] [D] [   664.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.9us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=664.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.925127 [PHY     ] [D] [   664.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.6us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=664.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.941518 [SCHED   ] [D] [   666.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.942010 [SCHED   ] [D] [   666.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.944716 [PHY     ] [D] [   666.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.3us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=666.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.945140 [PHY     ] [D] [   666.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.1us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=666.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.961515 [SCHED   ] [D] [   668.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.962007 [SCHED   ] [D] [   668.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.964641 [PHY     ] [D] [   668.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=52.1us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=668.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.965071 [PHY     ] [D] [   668.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=52.9us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=668.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.981516 [SCHED   ] [D] [   670.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:13.982009 [SCHED   ] [D] [   670.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:13.984619 [PHY     ] [D] [   670.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=37.1us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=670.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:13.985040 [PHY     ] [D] [   670.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=29.7us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=670.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.001513 [SCHED   ] [D] [   672.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.002006 [SCHED   ] [D] [   672.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.004634 [PHY     ] [D] [   672.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=47.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=672.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.005133 [PHY     ] [D] [   672.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=39.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=672.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.021514 [SCHED   ] [D] [   674.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.022020 [SCHED   ] [D] [   674.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.024730 [PHY     ] [D] [   674.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.5us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=674.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.025152 [PHY     ] [D] [   674.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.6us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=674.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.041508 [SCHED   ] [D] [   676.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.042014 [SCHED   ] [D] [   676.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.044740 [PHY     ] [D] [   676.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=676.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.045119 [PHY     ] [D] [   676.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.6us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=676.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.061513 [SCHED   ] [D] [   678.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.062019 [SCHED   ] [D] [   678.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.064737 [PHY     ] [D] [   678.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.5us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=678.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.065125 [PHY     ] [D] [   678.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.2us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=678.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.081507 [SCHED   ] [D] [   680.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.082015 [SCHED   ] [D] [   680.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.084613 [PHY     ] [D] [   680.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=28.7us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=680.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.085127 [PHY     ] [D] [   680.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=38.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=680.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.101511 [SCHED   ] [D] [   682.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.102018 [SCHED   ] [D] [   682.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.104632 [PHY     ] [D] [   682.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=45.0us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=682.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.105146 [PHY     ] [D] [   682.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=45.4us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=682.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.121515 [SCHED   ] [D] [   684.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.122008 [SCHED   ] [D] [   684.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.124748 [PHY     ] [D] [   684.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=44.2us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=684.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.125172 [PHY     ] [D] [   684.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=39.0us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=684.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.140592 [RRC     ] [W] ue=0 c-rnti=0x4601: "RRC Setup Procedure" timed out after 720ms
+2024-07-02T08:46:14.140643 [RRC     ] [D] ue=0 c-rnti=0x4601: Tx DCCH DL rrcRelease (8 B)
+2024-07-02T08:46:14.140644 [RRC     ] [D] ue=0 c-rnti=0x4601: Containerized rrcRelease: [
+  {
+    "DL-DCCH-Message": {
+      "message": {
+        "c1": {
+          "rrcRelease": {
+            "rrc-TransactionIdentifier": 0,
+            "criticalExtensions": {
+              "rrcRelease": {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
+2024-07-02T08:46:14.140645 [RRC     ] [D] ue=0 c-rnti=0x4601: TX SRB1 PDU
+2024-07-02T08:46:14.141017 [SCHED   ] [D] [   686.7] Processed slot events:
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=10
+2024-07-02T08:46:14.141509 [SCHED   ] [D] [   686.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.142016 [SCHED   ] [D] [   686.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.142516 [SCHED   ] [D] [  686.10] rnti=0x4601: Failed to allocate PDSCH for SRB1 for slot=686.10. Cause: No space in PUCCH
+2024-07-02T08:46:14.142520 [SCHED   ] [D] [  686.10] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=686.18
+2024-07-02T08:46:14.143016 [SCHED   ] [D] [  686.11] Slot decisions pci=1 t=5us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=0 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=0 k1=7 olla=0.00 grants: lcid=1: size=10
+2024-07-02T08:46:14.143035 [MAC     ] [I] [  686.11] DL PDU: ue=0 rnti=0x4601 size=51: SDU: lcid=1 nof_sdus=1 total_size=12
+2024-07-02T08:46:14.143056 [PHY     ] [D] [  686.11] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=22.1us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=686.11
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=22.1us
+2024-07-02T08:46:14.143094 [PHY     ] [D] [  686.11] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=35.2us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=686.11
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.143518 [SCHED   ] [D] [  686.12] Processed slot events:
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=0
+2024-07-02T08:46:14.144736 [PHY     ] [D] [   686.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=686.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.145133 [PHY     ] [D] [   686.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=686.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.146521 [SCHED   ] [D] [  686.18] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.149626 [PHY     ] [D] [  686.18] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=32.5us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=686.18
+  cp=normal
+  ports=0
+  status=valid
+  ack=1
+  detection_metric=58.3
+  sinr_ch_est[sel]=4.5dB
+  epre=-23.5dB
+  rsrp=-24.8dB
+  sinr=+4.5dB
+  t_align=0.00us
+  cfo=-18.9Hz
+2024-07-02T08:46:14.149655 [PHY     ] [D] [  686.18] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=59.7us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=686.18
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=4.5dB
+  epre=-25.9dB
+  rsrp=-27.2dB
+  sinr=+4.5dB
+  t_align=0.00us
+  cfo=-9.4Hz
+2024-07-02T08:46:14.150017 [SCHED   ] [D] [   687.5] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=686.18 h_id=0 ack=1 tbs=51
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=686.18 h_id=0 ack=2
+2024-07-02T08:46:14.161512 [SCHED   ] [D] [   688.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.162018 [SCHED   ] [D] [   688.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.164757 [PHY     ] [D] [   688.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=42.1us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=688.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.165132 [PHY     ] [D] [   688.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=39.2us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=688.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.181512 [SCHED   ] [D] [   690.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.182006 [SCHED   ] [D] [   690.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.184734 [PHY     ] [D] [   690.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=39.2us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=690.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.185156 [PHY     ] [D] [   690.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=36.3us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=690.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.188022 [SCHED   ] [D] [   691.1] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=691.8
+2024-07-02T08:46:14.188028 [SCHED   ] [D] [   691.1] Processed slot events:
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=10
+2024-07-02T08:46:14.188032 [SCHED   ] [D] [   691.1] Slot decisions pci=1 t=12us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=1 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=0 k1=7 olla=0.00 grants: lcid=1: size=10
+2024-07-02T08:46:14.188043 [MAC     ] [I] [   691.1] DL PDU: ue=0 rnti=0x4601 size=51: SDU: lcid=1 nof_sdus=1 total_size=12
+2024-07-02T08:46:14.188061 [PHY     ] [D] [   691.1] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=17.1us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=691.1
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=17.1us
+2024-07-02T08:46:14.188082 [PHY     ] [D] [   691.1] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=30.8us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=691.1
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.188519 [SCHED   ] [D] [   691.2] Processed slot events:
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=0
+2024-07-02T08:46:14.191514 [SCHED   ] [D] [   691.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.194610 [PHY     ] [D] [   691.8] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=30.6us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=691.8
+  cp=normal
+  ports=0
+  status=valid
+  ack=1
+  detection_metric=63.2
+  sinr_ch_est[sel]=4.7dB
+  epre=-23.8dB
+  rsrp=-25.1dB
+  sinr=+4.7dB
+  t_align=0.00us
+  cfo=-62.7Hz
+2024-07-02T08:46:14.194634 [PHY     ] [D] [   691.8] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=54.0us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=691.8
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=4.7dB
+  epre=-26.2dB
+  rsrp=-27.4dB
+  sinr=+4.7dB
+  t_align=0.00us
+  cfo=-31.3Hz
+2024-07-02T08:46:14.195025 [SCHED   ] [D] [  691.15] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=691.8 h_id=0 ack=1 tbs=51
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=691.8 h_id=0 ack=2
+2024-07-02T08:46:14.201517 [SCHED   ] [D] [   692.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.202007 [SCHED   ] [D] [   692.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.204627 [PHY     ] [D] [   692.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=42.3us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=692.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.205137 [PHY     ] [D] [   692.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=40.7us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=692.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.222003 [MAC     ] [W] [   694.4] Skipped slot indication=694.9. Cause: DL task queue is full.
+2024-07-02T08:46:14.222500 [MAC     ] [W] [   694.4] Skipped slot indication=694.10. Cause: DL task queue is full.
+2024-07-02T08:46:14.223002 [MAC     ] [W] [   694.4] Skipped slot indication=694.11. Cause: DL task queue is full.
+2024-07-02T08:46:14.223502 [MAC     ] [W] [   694.4] Skipped slot indication=694.12. Cause: DL task queue is full.
+2024-07-02T08:46:14.224006 [MAC     ] [W] [   694.4] Skipped slot indication=694.13. Cause: DL task queue is full.
+2024-07-02T08:46:14.224506 [MAC     ] [W] [   694.4] Skipped slot indication=694.14. Cause: DL task queue is full.
+2024-07-02T08:46:14.225002 [MAC     ] [W] [   694.4] Skipped slot indication=694.15. Cause: DL task queue is full.
+2024-07-02T08:46:14.225502 [MAC     ] [W] [   694.4] Skipped slot indication=694.16. Cause: DL task queue is full.
+2024-07-02T08:46:14.225531 [FAPI    ] [W] [  694.16] Real-time failure in FAPI: Received late DL_TTI.request from slot 694.5
+2024-07-02T08:46:14.225541 [OFH     ] [W] Dropped late downlink resource grid in slot '694.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:14.225545 [SCHED   ] [D] [   694.6] Processed slot events:
+- ErrorIndication: slot=694.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.225548 [FAPI    ] [W] [  694.16] Real-time failure in FAPI: Received late DL_TTI.request from slot 694.6
+2024-07-02T08:46:14.225555 [SCHED   ] [D] [   694.7] Processed slot events:
+- ErrorIndication: slot=694.4, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=694.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.225562 [SCHED   ] [D] [   694.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.225564 [FAPI    ] [W] [  694.16] Real-time failure in FAPI: Received late UL_TTI.request from slot 694.8
+2024-07-02T08:46:14.226018 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.9.
+2024-07-02T08:46:14.226019 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.10.
+2024-07-02T08:46:14.226020 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.11.
+2024-07-02T08:46:14.226020 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.12.
+2024-07-02T08:46:14.226021 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.13.
+2024-07-02T08:46:14.226021 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.14.
+2024-07-02T08:46:14.226022 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.15.
+2024-07-02T08:46:14.226022 [SCHED   ] [I] [  694.17] Status: Detected skipped slot=694.16.
+2024-07-02T08:46:14.226026 [SCHED   ] [W] [  694.17] cell=0, slot=694.8: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:14.226027 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.9.
+2024-07-02T08:46:14.226028 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.10.
+2024-07-02T08:46:14.226028 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.11.
+2024-07-02T08:46:14.226028 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.12.
+2024-07-02T08:46:14.226028 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.13.
+2024-07-02T08:46:14.226029 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.14.
+2024-07-02T08:46:14.226029 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.15.
+2024-07-02T08:46:14.226029 [SCHED   ] [I] [  694.17] UE fallback scheduler: Detected skipped slot=694.16.
+2024-07-02T08:46:14.233017 [SCHED   ] [D] [  695.11] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=695.18
+2024-07-02T08:46:14.233029 [SCHED   ] [D] [  695.11] Processed slot events:
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=10
+2024-07-02T08:46:14.233035 [SCHED   ] [D] [  695.11] Slot decisions pci=1 t=23us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=0 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=0 k1=7 olla=0.00 grants: lcid=1: size=10
+2024-07-02T08:46:14.233052 [MAC     ] [I] [  695.11] DL PDU: ue=0 rnti=0x4601 size=51: SDU: lcid=1 nof_sdus=1 total_size=12
+2024-07-02T08:46:14.233203 [PHY     ] [D] [  695.11] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=36.2us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=695.11
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.233204 [PHY     ] [D] [  695.11] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=40.7us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=695.11
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=40.7us
+2024-07-02T08:46:14.233514 [SCHED   ] [D] [  695.12] Processed slot events:
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=0
+2024-07-02T08:46:14.236511 [SCHED   ] [D] [  695.18] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.239640 [PHY     ] [D] [  695.18] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=2 t=51.4us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=695.18
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-15.3dB
+  epre=-47.5dB
+  rsrp=-62.8dB
+  sinr=-15.3dB
+  t_align=0.00us
+  cfo=-3564.0Hz
+2024-07-02T08:46:14.239709 [PHY     ] [D] [  695.18] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=61.9us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=695.18
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-17.6dB
+  epre=-50.2dB
+  rsrp=-67.8dB
+  sinr=-17.6dB
+  t_align=0.00us
+  cfo=-1782.0Hz
+2024-07-02T08:46:14.240020 [SCHED   ] [D] [   696.5] rnti=0x4601: PUCCH on common resource with res_ind=0 allocated for slot=696.9
+2024-07-02T08:46:14.240028 [SCHED   ] [D] [   696.5] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=695.18 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=695.18 h_id=0 ack=2
+2024-07-02T08:46:14.240031 [SCHED   ] [D] [   696.5] Slot decisions pci=1 t=18us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=0 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=1 k1=4 olla=0.00
+2024-07-02T08:46:14.240075 [PHY     ] [D] [   696.5] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=21.5us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=696.5
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=21.5us
+2024-07-02T08:46:14.240087 [PHY     ] [D] [   696.5] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=29.2us
+  rnti=0x4601
+  h_id=0
+  k1=4
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=696.5
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.242013 [SCHED   ] [D] [   696.9] Slot decisions pci=1 t=3us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[1..2) symb=[0..2) uci: harq_bits=1 sr=0 csi-1_bits=4
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.244709 [PHY     ] [D] [   696.9] PUCCH: rnti=0x4601 format=2 prb=[1, 2) prb2=na symb=[0, 2) ack=2 csi1=2222 t=45.2us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[1, 2)
+  prb2=na
+  symb=[0, 2)
+  n_id=1
+  n_id0=1
+  slot=696.9
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  csi1=2222
+  sinr_ch_est[sel]=-3.3dB
+  epre=-50.2dB
+  rsrp=-54.6dB
+  sinr=-3.3dB
+  t_align=-1.17us
+  cfo=+11096.6Hz
+2024-07-02T08:46:14.245019 [SCHED   ] [D] [  696.15] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=696.9 h_id=0 ack=2
+2024-07-02T08:46:14.245142 [PHY     ] [D] [   696.9] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=60.5us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=696.9
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-28.5dB
+  epre=-52.0dB
+  rsrp=-80.5dB
+  sinr=-28.5dB
+  t_align=0.00us
+  cfo=+3104.0Hz
+2024-07-02T08:46:14.245509 [SCHED   ] [D] [  696.16] rnti=0x4601: Failed to allocate PDSCH for SRB1 for slot=696.16. Cause: No space in PUCCH
+2024-07-02T08:46:14.245511 [SCHED   ] [D] [  696.16] rnti=0x4601: Failed to allocate PDSCH for SRB1 for slot=697.0. Cause: No space in PUCCH
+2024-07-02T08:46:14.245513 [SCHED   ] [D] [  696.16] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=697.8
+2024-07-02T08:46:14.245521 [SCHED   ] [D] [  696.16] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=696.9 h_id=0 ack=2
+2024-07-02T08:46:14.248021 [SCHED   ] [D] [   697.1] Slot decisions pci=1 t=5us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=0 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=2 k1=7 olla=0.00
+2024-07-02T08:46:14.248061 [PHY     ] [D] [   697.1] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=24.7us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=697.1
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.248067 [PHY     ] [D] [   697.1] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=31.8us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=697.1
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=31.8us
+2024-07-02T08:46:14.251514 [SCHED   ] [D] [   697.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.254618 [PHY     ] [D] [   697.8] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=2 t=37.7us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=697.8
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.9
+  sinr_ch_est[sel]=-19.2dB
+  epre=-48.4dB
+  rsrp=-67.6dB
+  sinr=-19.2dB
+  t_align=0.00us
+  cfo=+2687.9Hz
+2024-07-02T08:46:14.254628 [PHY     ] [D] [   697.8] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=48.4us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=697.8
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-15.8dB
+  epre=-51.4dB
+  rsrp=-67.3dB
+  sinr=-15.8dB
+  t_align=0.00us
+  cfo=+1343.9Hz
+2024-07-02T08:46:14.255017 [SCHED   ] [D] [  697.15] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=697.19
+2024-07-02T08:46:14.255023 [SCHED   ] [D] [  697.15] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=697.8 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=697.8 h_id=0 ack=2
+2024-07-02T08:46:14.255025 [SCHED   ] [D] [  697.15] Slot decisions pci=1 t=11us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=0 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=3 k1=4 olla=0.00
+2024-07-02T08:46:14.255071 [PHY     ] [D] [  697.15] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=36.1us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=697.15
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=36.1us
+2024-07-02T08:46:14.255073 [PHY     ] [D] [  697.15] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=35.6us
+  rnti=0x4601
+  h_id=0
+  k1=4
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=697.15
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.257008 [SCHED   ] [D] [  697.19] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.260111 [PHY     ] [D] [  697.19] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=2 t=30.4us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=697.19
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.3
+  sinr_ch_est[sel]=-28.1dB
+  epre=-48.8dB
+  rsrp=-76.8dB
+  sinr=-28.1dB
+  t_align=0.00us
+  cfo=+5741.8Hz
+2024-07-02T08:46:14.260161 [PHY     ] [D] [  697.19] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=47.8us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=697.19
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-30.1dB
+  epre=-51.2dB
+  rsrp=-81.3dB
+  sinr=-30.1dB
+  t_align=0.00us
+  cfo=+2870.9Hz
+2024-07-02T08:46:14.260519 [SCHED   ] [D] [   698.6] rnti=0x4601: Failed to allocate PDSCH for SRB1 for slot=698.6. Cause: No space in PUCCH
+2024-07-02T08:46:14.260523 [SCHED   ] [D] [   698.6] rnti=0x4601: Failed to allocate PDSCH for SRB1 for slot=698.10. Cause: No space in PUCCH
+2024-07-02T08:46:14.260524 [SCHED   ] [D] [   698.6] rnti=0x4601: PUCCH on common and ded. resource with res_ind=0 allocated for slot=698.18
+2024-07-02T08:46:14.260530 [SCHED   ] [D] [   698.6] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=697.19 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=697.19 h_id=0 ack=2
+2024-07-02T08:46:14.260565 [MAC     ] [D] [   698.6] ue=0 crnti=0x4601 proc="UE Delete Request": started...
+2024-07-02T08:46:14.261019 [SCHED   ] [D] [   698.7] Processed slot events:
+- UE removal: ue=0 rnti=0x4601
+- RLC Buffer State: ue=0 lcid=0 pending_bytes=0
+- RLC Buffer State: ue=0 lcid=1 pending_bytes=0
+2024-07-02T08:46:14.261512 [SCHED   ] [D] [   698.8] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[272..273) symb=[0..14) cs=0 occ=1 uci: harq_bits=0 sr=1
+2024-07-02T08:46:14.262008 [SCHED   ] [D] [   698.9] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=2 prb=[271..272) symb=[10..12) uci: harq_bits=0 sr=0 csi-1_bits=4
+2024-07-02T08:46:14.263017 [SCHED   ] [D] [  698.11] Slot decisions pci=1 t=4us (1 PDSCH, 0 PUSCHs):
+- DL PDCCH: rnti=0x4601 type=c-rnti cs_id=0 ss_id=1 format=1_0 cce=0 al=4  dci: h_id=0 ndi=0 rv=0 mcs=20 res_ind=0
+- UE PDSCH: ue=0 c-rnti=0x4601 h_id=0 rb=[0..1) symb=[1..14) tbs=51 mcs=20 rv=0 nrtx=4 k1=7 olla=0.00
+2024-07-02T08:46:14.263054 [PHY     ] [D] [  698.11] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=25.6us
+  rnti=0x4601
+  ss_id=1
+  format=1_0
+  slot=698.11
+  cp=normal
+  bwp=[1, 49)
+  symb=[0, 1)
+  f_re=111111110000000000000000000000000000000000000
+  mapping=coreset0
+  shift_idx=1
+  cce=0
+  al=4
+  size=39
+  n_id_dmrs=1
+  n_id_data=1
+  n_rnti=0
+  power_dmrs=+0.0dB
+  power_data=+0.0dB
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+  t=25.6us
+2024-07-02T08:46:14.263059 [PHY     ] [D] [  698.11] PDSCH: rnti=0x4601 h_id=0 k1=7 prb=[0, 1) symb=[1, 14) mod=64QAM rv=0 tbs=51 t=18.1us
+  rnti=0x4601
+  h_id=0
+  k1=7
+  bwp=[1, 49)
+  prb=[0, 1)
+  symb=[1, 14)
+  mod=64QAM
+  rv=0
+  n_id=1
+  ref_point=CRB0
+  dmrs_type=1
+  dmrs_mask=00100001000100
+  n_scidid=1
+  n_scid=false
+  ncgwd=2
+  bg=BG2
+  lbrm=3168bytes
+  power_dmrs=+3.0dB
+  power_data=+0.0dB
+  slot=698.11
+  cp=normal
+  precoding=prg_size=275 prg0=[+1.00+0.00j]
+2024-07-02T08:46:14.264611 [PHY     ] [D] [   698.8] PUCCH: rnti=0x4601 format=1 prb1=272 prb2=na symb=[0, 14) cs=0 occ=1 sr=no t=31.3us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=272
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=1
+  slot=698.8
+  cp=normal
+  ports=0
+  status=invalid
+  sr=no
+  detection_metric=0.0
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.265105 [PHY     ] [D] [   698.9] PUCCH: rnti=0x4601 format=2 prb=[271, 272) prb2=na symb=[10, 12) csi1=2222 t=37.4us
+  rnti=0x4601
+  format=2
+  bwp=[0, 273)
+  prb=[271, 272)
+  prb2=na
+  symb=[10, 12)
+  n_id=1
+  n_id0=1
+  slot=698.9
+  cp=normal
+  ports=0
+  status=invalid
+  csi1=2222
+  sinr_ch_est[sel]=60.0dB
+  epre=-infdB
+  rsrp=-infdB
+  sinr=+60.0dB
+  t_align=0.00us
+  cfo=+0.0Hz
+2024-07-02T08:46:14.266516 [SCHED   ] [D] [  698.18] Slot decisions pci=1 t=2us (0 PDSCHs, 0 PUSCHs):
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+- PUCCH: c-rnti=0x4601 format=1 prb=[0..1) second_prbs=[272..273) symb=[0..14) cs=0 occ=0 uci: harq_bits=1 sr=0
+2024-07-02T08:46:14.269649 [PHY     ] [D] [  698.18] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=na symb=[0, 14) cs=0 occ=0 ack=2 t=30.2us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=na
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=698.18
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.1
+  sinr_ch_est[sel]=-16.6dB
+  epre=-47.0dB
+  rsrp=-63.6dB
+  sinr=-16.6dB
+  t_align=0.00us
+  cfo=-333.1Hz
+2024-07-02T08:46:14.269676 [PHY     ] [D] [  698.18] PUCCH: rnti=0x4601 format=1 prb1=0 prb2=272 symb=[0, 14) cs=0 occ=0 ack=2 t=55.4us
+  rnti=0x4601
+  format=1
+  bwp=[0, 273)
+  prb1=0
+  prb2=272
+  symb=[0, 14)
+  n_id=1
+  cs=0
+  occ=0
+  slot=698.18
+  cp=normal
+  ports=0
+  status=invalid
+  ack=2
+  detection_metric=0.0
+  sinr_ch_est[sel]=-27.1dB
+  epre=-51.0dB
+  rsrp=-78.0dB
+  sinr=-27.1dB
+  t_align=0.00us
+  cfo=-166.5Hz
+2024-07-02T08:46:14.270016 [SCHED   ] [I] [   699.5] DL HARQ rnti=0x4601 cell=0 h_id=0: Discarding HARQ process tb=0 with tbs=51. Cause: Maximum number of reTxs 4 exceeded
+2024-07-02T08:46:14.270022 [SCHED   ] [D] [   699.5] Processed slot events:
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=698.18 h_id=0 ack=2
+- HARQ-ACK: ue=0 rnti=0x4601 pci=1 slot_rx=698.18 h_id=0 ack=2
+2024-07-02T08:46:14.277043 [SCHED   ] [D] [  699.19] ue=0 rnti=0x4601: UE has been successfully removed.
+2024-07-02T08:46:14.277186 [MAC     ] [I] [  699.19] ue=0 crnti=0x4601 proc="UE Delete Request": finished successfully
+2024-07-02T08:46:14.350484 [OFH     ] [W] Dropped late downlink resource grid in slot '707.2' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:14.350506 [SCHED   ] [D] [   707.3] Processed slot events:
+- ErrorIndication: slot=707.2, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.600632 [OFH     ] [W] Dropped late downlink resource grid in slot '732.2' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:14.600645 [SCHED   ] [D] [   732.5] Processed slot events:
+- ErrorIndication: slot=732.2, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.721504 [MAC     ] [W] [   744.3] Skipped slot indication=744.8. Cause: DL task queue is full.
+2024-07-02T08:46:14.722000 [MAC     ] [W] [   744.3] Skipped slot indication=744.9. Cause: DL task queue is full.
+2024-07-02T08:46:14.722504 [MAC     ] [W] [   744.3] Skipped slot indication=744.10. Cause: DL task queue is full.
+2024-07-02T08:46:14.723005 [MAC     ] [W] [   744.3] Skipped slot indication=744.11. Cause: DL task queue is full.
+2024-07-02T08:46:14.723505 [MAC     ] [W] [   744.3] Skipped slot indication=744.12. Cause: DL task queue is full.
+2024-07-02T08:46:14.724004 [MAC     ] [W] [   744.3] Skipped slot indication=744.13. Cause: DL task queue is full.
+2024-07-02T08:46:14.724503 [MAC     ] [W] [   744.3] Skipped slot indication=744.14. Cause: DL task queue is full.
+2024-07-02T08:46:14.725003 [MAC     ] [W] [   744.3] Skipped slot indication=744.15. Cause: DL task queue is full.
+2024-07-02T08:46:14.725506 [MAC     ] [W] [   744.3] Skipped slot indication=744.16. Cause: DL task queue is full.
+2024-07-02T08:46:14.726004 [MAC     ] [W] [   744.3] Skipped slot indication=744.17. Cause: DL task queue is full.
+2024-07-02T08:46:14.726074 [FAPI    ] [W] [  744.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 744.4
+2024-07-02T08:46:14.726083 [SCHED   ] [D] [   744.5] Processed slot events:
+- ErrorIndication: slot=744.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.726086 [FAPI    ] [W] [  744.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 744.5
+2024-07-02T08:46:14.726090 [OFH     ] [W] Dropped late downlink resource grid in slot '744.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:14.726093 [SCHED   ] [D] [   744.6] Processed slot events:
+- ErrorIndication: slot=744.5, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=744.3, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.726095 [FAPI    ] [W] [  744.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 744.6
+2024-07-02T08:46:14.726101 [SCHED   ] [D] [   744.7] Processed slot events:
+- ErrorIndication: slot=744.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.726508 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.8.
+2024-07-02T08:46:14.726509 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.9.
+2024-07-02T08:46:14.726509 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.10.
+2024-07-02T08:46:14.726509 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.11.
+2024-07-02T08:46:14.726510 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.12.
+2024-07-02T08:46:14.726510 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.13.
+2024-07-02T08:46:14.726511 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.14.
+2024-07-02T08:46:14.726511 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.15.
+2024-07-02T08:46:14.726512 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.16.
+2024-07-02T08:46:14.726513 [SCHED   ] [I] [  744.18] Status: Detected skipped slot=744.17.
+2024-07-02T08:46:14.726515 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.8.
+2024-07-02T08:46:14.726516 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.9.
+2024-07-02T08:46:14.726516 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.10.
+2024-07-02T08:46:14.726516 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.11.
+2024-07-02T08:46:14.726516 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.12.
+2024-07-02T08:46:14.726517 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.13.
+2024-07-02T08:46:14.726517 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.14.
+2024-07-02T08:46:14.726517 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.15.
+2024-07-02T08:46:14.726517 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.16.
+2024-07-02T08:46:14.726517 [SCHED   ] [I] [  744.18] UE fallback scheduler: Detected skipped slot=744.17.
+2024-07-02T08:46:14.971504 [MAC     ] [W] [   769.3] Skipped slot indication=769.8. Cause: DL task queue is full.
+2024-07-02T08:46:14.972005 [MAC     ] [W] [   769.3] Skipped slot indication=769.9. Cause: DL task queue is full.
+2024-07-02T08:46:14.972505 [MAC     ] [W] [   769.3] Skipped slot indication=769.10. Cause: DL task queue is full.
+2024-07-02T08:46:14.973001 [MAC     ] [W] [   769.3] Skipped slot indication=769.11. Cause: DL task queue is full.
+2024-07-02T08:46:14.973505 [MAC     ] [W] [   769.3] Skipped slot indication=769.12. Cause: DL task queue is full.
+2024-07-02T08:46:14.974000 [MAC     ] [W] [   769.3] Skipped slot indication=769.13. Cause: DL task queue is full.
+2024-07-02T08:46:14.974501 [MAC     ] [W] [   769.3] Skipped slot indication=769.14. Cause: DL task queue is full.
+2024-07-02T08:46:14.975003 [MAC     ] [W] [   769.3] Skipped slot indication=769.15. Cause: DL task queue is full.
+2024-07-02T08:46:14.975504 [MAC     ] [W] [   769.3] Skipped slot indication=769.16. Cause: DL task queue is full.
+2024-07-02T08:46:14.975939 [OFH     ] [W] Dropped late downlink resource grid in slot '769.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:14.975946 [SCHED   ] [D] [   769.4] Processed slot events:
+- ErrorIndication: slot=769.3, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.975950 [FAPI    ] [W] [  769.16] Real-time failure in FAPI: Received late DL_TTI.request from slot 769.4
+2024-07-02T08:46:14.975955 [SCHED   ] [D] [   769.5] Processed slot events:
+- ErrorIndication: slot=769.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.975957 [FAPI    ] [W] [  769.16] Real-time failure in FAPI: Received late DL_TTI.request from slot 769.5
+2024-07-02T08:46:14.975963 [SCHED   ] [D] [   769.6] Processed slot events:
+- ErrorIndication: slot=769.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.975966 [FAPI    ] [W] [  769.16] Real-time failure in FAPI: Received late DL_TTI.request from slot 769.6
+2024-07-02T08:46:14.975972 [SCHED   ] [D] [   769.7] Processed slot events:
+- ErrorIndication: slot=769.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:14.976013 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.8.
+2024-07-02T08:46:14.976014 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.9.
+2024-07-02T08:46:14.976015 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.10.
+2024-07-02T08:46:14.976015 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.11.
+2024-07-02T08:46:14.976016 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.12.
+2024-07-02T08:46:14.976017 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.13.
+2024-07-02T08:46:14.976017 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.14.
+2024-07-02T08:46:14.976018 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.15.
+2024-07-02T08:46:14.976019 [SCHED   ] [I] [  769.17] Status: Detected skipped slot=769.16.
+2024-07-02T08:46:14.976023 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.8.
+2024-07-02T08:46:14.976024 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.9.
+2024-07-02T08:46:14.976024 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.10.
+2024-07-02T08:46:14.976024 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.11.
+2024-07-02T08:46:14.976024 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.12.
+2024-07-02T08:46:14.976024 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.13.
+2024-07-02T08:46:14.976024 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.14.
+2024-07-02T08:46:14.976025 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.15.
+2024-07-02T08:46:14.976025 [SCHED   ] [I] [  769.17] UE fallback scheduler: Detected skipped slot=769.16.
+2024-07-02T08:46:15.101101 [OFH     ] [W] Dropped late downlink resource grid in slot '782.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.101114 [SCHED   ] [D] [   782.6] Processed slot events:
+- ErrorIndication: slot=782.3, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:15.227111 [OFH     ] [W] Dropped late downlink resource grid in slot '794.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.227518 [SCHED   ] [W] [   795.0] cell=0, slot=794.4: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:15.347527 [OFH     ] [W] Dropped late downlink resource grid in slot '806.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.348005 [SCHED   ] [W] [   807.1] cell=0, slot=806.4: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:15.472005 [MAC     ] [W] [   819.4] Skipped slot indication=819.9. Cause: DL task queue is full.
+2024-07-02T08:46:15.472502 [MAC     ] [W] [   819.4] Skipped slot indication=819.10. Cause: DL task queue is full.
+2024-07-02T08:46:15.473004 [MAC     ] [W] [   819.4] Skipped slot indication=819.11. Cause: DL task queue is full.
+2024-07-02T08:46:15.473504 [MAC     ] [W] [   819.4] Skipped slot indication=819.12. Cause: DL task queue is full.
+2024-07-02T08:46:15.474001 [MAC     ] [W] [   819.4] Skipped slot indication=819.13. Cause: DL task queue is full.
+2024-07-02T08:46:15.474504 [MAC     ] [W] [   819.4] Skipped slot indication=819.14. Cause: DL task queue is full.
+2024-07-02T08:46:15.475002 [MAC     ] [W] [   819.4] Skipped slot indication=819.15. Cause: DL task queue is full.
+2024-07-02T08:46:15.475501 [MAC     ] [W] [   819.4] Skipped slot indication=819.16. Cause: DL task queue is full.
+2024-07-02T08:46:15.476003 [MAC     ] [W] [   819.4] Skipped slot indication=819.17. Cause: DL task queue is full.
+2024-07-02T08:46:15.476327 [OFH     ] [W] Dropped late downlink resource grid in slot '819.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.476336 [SCHED   ] [D] [   819.5] Processed slot events:
+- ErrorIndication: slot=819.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:15.476340 [FAPI    ] [W] [  819.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 819.5
+2024-07-02T08:46:15.476347 [SCHED   ] [D] [   819.6] Processed slot events:
+- ErrorIndication: slot=819.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:15.476349 [FAPI    ] [W] [  819.17] Real-time failure in FAPI: Received late DL_TTI.request from slot 819.6
+2024-07-02T08:46:15.476355 [SCHED   ] [D] [   819.7] Processed slot events:
+- ErrorIndication: slot=819.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:15.476361 [FAPI    ] [W] [  819.17] Real-time failure in FAPI: Received late UL_TTI.request from slot 819.8
+2024-07-02T08:46:15.476519 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.9.
+2024-07-02T08:46:15.476520 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.10.
+2024-07-02T08:46:15.476521 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.11.
+2024-07-02T08:46:15.476522 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.12.
+2024-07-02T08:46:15.476523 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.13.
+2024-07-02T08:46:15.476523 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.14.
+2024-07-02T08:46:15.476524 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.15.
+2024-07-02T08:46:15.476524 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.16.
+2024-07-02T08:46:15.476525 [SCHED   ] [I] [  819.18] Status: Detected skipped slot=819.17.
+2024-07-02T08:46:15.476528 [SCHED   ] [W] [  819.18] cell=0, slot=819.8: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:15.476529 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.9.
+2024-07-02T08:46:15.476529 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.10.
+2024-07-02T08:46:15.476530 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.11.
+2024-07-02T08:46:15.476530 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.12.
+2024-07-02T08:46:15.476530 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.13.
+2024-07-02T08:46:15.476530 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.14.
+2024-07-02T08:46:15.476530 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.15.
+2024-07-02T08:46:15.476531 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.16.
+2024-07-02T08:46:15.476531 [SCHED   ] [I] [  819.18] UE fallback scheduler: Detected skipped slot=819.17.
+2024-07-02T08:46:15.601502 [MAC     ] [W] [   832.3] Skipped slot indication=832.8. Cause: DL task queue is full.
+2024-07-02T08:46:15.601922 [OFH     ] [W] Dropped late downlink resource grid in slot '832.5' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.601924 [OFH     ] [W] Dropped late downlink resource grid in slot '832.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.601928 [OFH     ] [W] Dropped late downlink resource grid in slot '832.3' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:15.601934 [SCHED   ] [D] [   832.6] Processed slot events:
+- ErrorIndication: slot=832.5, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=832.4, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=832.3, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:15.602011 [SCHED   ] [I] [   832.9] Status: Detected skipped slot=832.8.
+2024-07-02T08:46:15.602014 [SCHED   ] [I] [   832.9] UE fallback scheduler: Detected skipped slot=832.8.
+2024-07-02T08:46:16.221002 [MAC     ] [W] [   894.2] Skipped slot indication=894.7. Cause: DL task queue is full.
+2024-07-02T08:46:16.221504 [MAC     ] [W] [   894.2] Skipped slot indication=894.8. Cause: DL task queue is full.
+2024-07-02T08:46:16.222002 [MAC     ] [W] [   894.2] Skipped slot indication=894.9. Cause: DL task queue is full.
+2024-07-02T08:46:16.222504 [MAC     ] [W] [   894.2] Skipped slot indication=894.10. Cause: DL task queue is full.
+2024-07-02T08:46:16.223000 [MAC     ] [W] [   894.2] Skipped slot indication=894.11. Cause: DL task queue is full.
+2024-07-02T08:46:16.223504 [MAC     ] [W] [   894.2] Skipped slot indication=894.12. Cause: DL task queue is full.
+2024-07-02T08:46:16.224000 [MAC     ] [W] [   894.2] Skipped slot indication=894.13. Cause: DL task queue is full.
+2024-07-02T08:46:16.224505 [MAC     ] [W] [   894.2] Skipped slot indication=894.14. Cause: DL task queue is full.
+2024-07-02T08:46:16.225005 [MAC     ] [W] [   894.2] Skipped slot indication=894.15. Cause: DL task queue is full.
+2024-07-02T08:46:16.225506 [MAC     ] [W] [   894.2] Skipped slot indication=894.16. Cause: DL task queue is full.
+2024-07-02T08:46:16.226002 [MAC     ] [W] [   894.2] Skipped slot indication=894.17. Cause: DL task queue is full.
+2024-07-02T08:46:16.226500 [MAC     ] [W] [   894.2] Skipped slot indication=894.18. Cause: DL task queue is full.
+2024-07-02T08:46:16.227003 [MAC     ] [W] [   894.2] Skipped slot indication=894.19. Cause: DL task queue is full.
+2024-07-02T08:46:16.227130 [FAPI    ] [W] [  894.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 894.3
+2024-07-02T08:46:16.227139 [SCHED   ] [D] [   894.4] Processed slot events:
+- ErrorIndication: slot=894.3, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.227142 [FAPI    ] [W] [  894.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 894.4
+2024-07-02T08:46:16.227145 [OFH     ] [W] Dropped late downlink resource grid in slot '894.0' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.227147 [SCHED   ] [D] [   894.5] Processed slot events:
+- ErrorIndication: slot=894.4, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=894.0, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.227149 [OFH     ] [W] Dropped late downlink resource grid in slot '894.2' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.227150 [FAPI    ] [W] [  894.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 894.5
+2024-07-02T08:46:16.227155 [SCHED   ] [D] [   894.6] Processed slot events:
+- ErrorIndication: slot=894.2, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=894.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.227158 [FAPI    ] [W] [  894.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 894.6
+2024-07-02T08:46:16.227508 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.7.
+2024-07-02T08:46:16.227509 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.8.
+2024-07-02T08:46:16.227510 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.9.
+2024-07-02T08:46:16.227510 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.10.
+2024-07-02T08:46:16.227511 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.11.
+2024-07-02T08:46:16.227511 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.12.
+2024-07-02T08:46:16.227512 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.13.
+2024-07-02T08:46:16.227512 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.14.
+2024-07-02T08:46:16.227513 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.15.
+2024-07-02T08:46:16.227514 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.16.
+2024-07-02T08:46:16.227514 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.17.
+2024-07-02T08:46:16.227515 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.18.
+2024-07-02T08:46:16.227516 [SCHED   ] [I] [   895.0] Status: Detected skipped slot=894.19.
+2024-07-02T08:46:16.227519 [SCHED   ] [W] [   895.0] cell=0, slot=894.6: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:16.227520 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.7.
+2024-07-02T08:46:16.227520 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.8.
+2024-07-02T08:46:16.227521 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.9.
+2024-07-02T08:46:16.227521 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.10.
+2024-07-02T08:46:16.227521 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.11.
+2024-07-02T08:46:16.227522 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.12.
+2024-07-02T08:46:16.227522 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.13.
+2024-07-02T08:46:16.227522 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.14.
+2024-07-02T08:46:16.227522 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.15.
+2024-07-02T08:46:16.227522 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.16.
+2024-07-02T08:46:16.227522 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.17.
+2024-07-02T08:46:16.227523 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.18.
+2024-07-02T08:46:16.227523 [SCHED   ] [I] [   895.0] UE fallback scheduler: Detected skipped slot=894.19.
+2024-07-02T08:46:16.602005 [MAC     ] [W] [   932.4] Skipped slot indication=932.9. Cause: DL task queue is full.
+2024-07-02T08:46:16.602502 [MAC     ] [W] [   932.4] Skipped slot indication=932.10. Cause: DL task queue is full.
+2024-07-02T08:46:16.602761 [OFH     ] [W] Dropped late downlink resource grid in slot '932.4' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.602767 [OFH     ] [W] Dropped late downlink resource grid in slot '932.5' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.602780 [SCHED   ] [D] [   932.6] Processed slot events:
+- ErrorIndication: slot=932.4, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=932.5, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.602784 [OFH     ] [W] Dropped late downlink resource grid in slot '932.6' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.602792 [SCHED   ] [D] [   932.7] Processed slot events:
+- ErrorIndication: slot=932.6, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.603011 [SCHED   ] [I] [  932.11] Status: Detected skipped slot=932.9.
+2024-07-02T08:46:16.603012 [SCHED   ] [I] [  932.11] Status: Detected skipped slot=932.10.
+2024-07-02T08:46:16.603015 [SCHED   ] [I] [  932.11] UE fallback scheduler: Detected skipped slot=932.9.
+2024-07-02T08:46:16.603016 [SCHED   ] [I] [  932.11] UE fallback scheduler: Detected skipped slot=932.10.
+2024-07-02T08:46:16.721004 [MAC     ] [W] [   944.2] Skipped slot indication=944.7. Cause: DL task queue is full.
+2024-07-02T08:46:16.721504 [MAC     ] [W] [   944.2] Skipped slot indication=944.8. Cause: DL task queue is full.
+2024-07-02T08:46:16.722004 [MAC     ] [W] [   944.2] Skipped slot indication=944.9. Cause: DL task queue is full.
+2024-07-02T08:46:16.722503 [MAC     ] [W] [   944.2] Skipped slot indication=944.10. Cause: DL task queue is full.
+2024-07-02T08:46:16.723003 [MAC     ] [W] [   944.2] Skipped slot indication=944.11. Cause: DL task queue is full.
+2024-07-02T08:46:16.723505 [MAC     ] [W] [   944.2] Skipped slot indication=944.12. Cause: DL task queue is full.
+2024-07-02T08:46:16.724000 [MAC     ] [W] [   944.2] Skipped slot indication=944.13. Cause: DL task queue is full.
+2024-07-02T08:46:16.724506 [MAC     ] [W] [   944.2] Skipped slot indication=944.14. Cause: DL task queue is full.
+2024-07-02T08:46:16.725001 [MAC     ] [W] [   944.2] Skipped slot indication=944.15. Cause: DL task queue is full.
+2024-07-02T08:46:16.725503 [MAC     ] [W] [   944.2] Skipped slot indication=944.16. Cause: DL task queue is full.
+2024-07-02T08:46:16.726005 [MAC     ] [W] [   944.2] Skipped slot indication=944.17. Cause: DL task queue is full.
+2024-07-02T08:46:16.726504 [MAC     ] [W] [   944.2] Skipped slot indication=944.18. Cause: DL task queue is full.
+2024-07-02T08:46:16.727003 [MAC     ] [W] [   944.2] Skipped slot indication=944.19. Cause: DL task queue is full.
+2024-07-02T08:46:16.727251 [FAPI    ] [W] [  944.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 944.3
+2024-07-02T08:46:16.727256 [OFH     ] [W] Dropped late downlink resource grid in slot '944.2' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.727260 [SCHED   ] [D] [   944.4] Processed slot events:
+- ErrorIndication: slot=944.3, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=944.2, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.727264 [FAPI    ] [W] [  944.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 944.4
+2024-07-02T08:46:16.727269 [SCHED   ] [D] [   944.5] Processed slot events:
+- ErrorIndication: slot=944.4, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.727272 [FAPI    ] [W] [  944.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 944.5
+2024-07-02T08:46:16.727275 [OFH     ] [W] Dropped late downlink resource grid in slot '944.1' and sector#0. No OFH data will be transmitted for this slot
+2024-07-02T08:46:16.727280 [SCHED   ] [D] [   944.6] Processed slot events:
+- ErrorIndication: slot=944.5, PDCCH discarded, PDSCH discarded
+- ErrorIndication: slot=944.1, PDCCH discarded, PDSCH discarded
+2024-07-02T08:46:16.727284 [FAPI    ] [W] [  944.19] Real-time failure in FAPI: Received late DL_TTI.request from slot 944.6
+2024-07-02T08:46:16.727511 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.7.
+2024-07-02T08:46:16.727512 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.8.
+2024-07-02T08:46:16.727513 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.9.
+2024-07-02T08:46:16.727513 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.10.
+2024-07-02T08:46:16.727514 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.11.
+2024-07-02T08:46:16.727514 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.12.
+2024-07-02T08:46:16.727515 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.13.
+2024-07-02T08:46:16.727515 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.14.
+2024-07-02T08:46:16.727516 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.15.
+2024-07-02T08:46:16.727517 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.16.
+2024-07-02T08:46:16.727518 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.17.
+2024-07-02T08:46:16.727518 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.18.
+2024-07-02T08:46:16.727519 [SCHED   ] [I] [   945.0] Status: Detected skipped slot=944.19.
+2024-07-02T08:46:16.727522 [SCHED   ] [W] [   945.0] cell=0, slot=944.6: Discarding error indication. Cause: Scheduler results associated with the slot of the error indication have already been erased
+2024-07-02T08:46:16.727523 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.7.
+2024-07-02T08:46:16.727523 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.8.
+2024-07-02T08:46:16.727523 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.9.
+2024-07-02T08:46:16.727524 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.10.
+2024-07-02T08:46:16.727524 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.11.
+2024-07-02T08:46:16.727524 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.12.
+2024-07-02T08:46:16.727524 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.13.
+2024-07-02T08:46:16.727525 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.14.
+2024-07-02T08:46:16.727525 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.15.
+2024-07-02T08:46:16.727525 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.16.
+2024-07-02T08:46:16.727525 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.17.
+2024-07-02T08:46:16.727525 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.18.
+2024-07-02T08:46:16.727526 [SCHED   ] [I] [   945.0] UE fallback scheduler: Detected skipped slot=944.19.
+2024-07-02T08:46:18.063106 [MAC     ] [I] [   978.7] cell=0: Cell was stopped.
